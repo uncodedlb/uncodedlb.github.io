@@ -73,11 +73,11 @@ google_analytics:
 # !! You don't need to change any of the configuration flags below !!
 #
 
-styling: "/style.css" # must start with /
-script: "/js/rockon.js"
+styling: "style.css"
+script: "js/rockon.js"
 jquery:
-  main: "/js/jquery.js"
-  easing: "/js/jquery.easing.min.js"
+  main: "js/jquery.js"
+  easing: "js/jquery.easing.min.js"
 bootstrap:
   css: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"  # "css/bootstrap.min.css"
   js: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"     # "js/bootstrap.min.js"
