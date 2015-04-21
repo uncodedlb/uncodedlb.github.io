@@ -1,0 +1,44 @@
+
+//
+// VARIABLES
+//
+
+$panel1-bg: "https://fanart.tv/fanart/music/519774a4-3b18-4042-b8c0-927845a616c9/artistbackground/page-jimmy-53763e8f29739.jpg";
+$panel3-bg: "http://upload.wikimedia.org/wikipedia/commons/c/cd/U2-panorama.jpg"; // "../img/downloads-bg.jpg";
+
+// Colors
+$panel1-bg-tint: rgba(#CD3232,.3);
+$primary: rgba(#50a6ed,.9);
+$secondary: rgba(#CD3232, .9);
+
+$clr-selection: rgba($primary,.5);
+$clr-selection-bg: rgba($primary,.5);
+
+// Grays  <-- stupid don't name variables a fixed meaning like a color name!  ugh!
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+
+// Theme Elements
+$clr-navbar: red;
+$clr-navbar-link: white;
+$clr-navbar-bg: black;
+$clr-navbar-border: rgba(255,255,255,.3);
+$clr-navbar-border-thickness: 1px;
+$clr-navbar-border-type: solid;
+
+$clr-code: rgba(white,1);
+$clr-code-bg: rgba($primary,.3);
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+  {% if forloop.first == true %}
+      {{ post.content }}
+      <section class="manual container content-section text-center">
+        {{ content }}
+      </section>
+  {% else %}
+      {{ post.content }}
+  {% endif %}
+{% endfor %}

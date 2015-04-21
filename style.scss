@@ -1,9 +1,14 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+---
+---
 
+//
+// IMPORTS
+//
+
+@import "_reset";
+@import "_variables";
+// Syntax highlighting @import is at the bottom of this file
+// -------------------------- ORIGINAL grayscale.css
 body {
     width: 100%;
     height: 100%;
@@ -30,6 +35,12 @@ h6 {
     letter-spacing: 1px;
 }
 
+code {
+  color: $clr-code;
+  background-color: $clr-code-bg;
+  padding:4px 8px;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -45,7 +56,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: $primary;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +65,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: $secondary;
 }
 
 .light {
@@ -63,10 +74,10 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: $clr-navbar-border-thickness $clr-navbar-border-type $clr-navbar-border;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: $clr-navbar-bg;
 }
 
 .navbar-custom .navbar-brand {
@@ -80,7 +91,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: $clr-navbar;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -89,7 +100,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: $clr-navbar-link;
 }
 
 .navbar-custom .nav li a {
@@ -147,12 +158,21 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: $panel1-bg-tint;
+}
+.intro::after {
+  content: "";
+  background: url($panel1-bg) no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .intro .intro-body {
@@ -162,6 +182,13 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+}
+
+.intro .row > div,
+.download-section .container > div {
+  background-color: darken(rgba($panel1-bg-tint,.9),40%);
+  border-radius:20px;
+  padding:20px;
 }
 
 .intro .intro-body .intro-text {
@@ -223,7 +250,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -240,7 +267,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -265,7 +292,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url($panel3-bg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -305,17 +332,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid $primary;
+    color: $primary;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid $secondary;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: $secondary;
 }
 
 ul.banner-social-buttons {
@@ -350,14 +377,12 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: $clr-selection-bg;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: $clr-selection-bg;
 }
 
 img::selection {
@@ -371,3 +396,120 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+
+
+
+// -------------------------- ORIGINAL JEKYLL-NOW SCSS SKELTON
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+}
+
+// Specify the color of the selection
+::-moz-selection {
+}
+::selection {
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+}
+
+.masthead {
+  @include mobile {
+  //  text-align: center;
+  }
+}
+
+.site-avatar {
+  @include mobile {
+  }
+  img {
+  }
+}
+
+.site-info {
+  @include mobile {
+    // float: none;
+    // display: block;
+    // margin: 0 auto;
+  }
+}
+
+.site-name {
+}
+
+.site-description {
+  @include mobile {
+    // margin: 3px 0;
+  }
+}
+
+nav {
+  @include mobile {
+    // float: none;
+    // margin-top: 9px;
+    // display: block;
+    // font-size: 16px;
+  }
+  a {
+    @include mobile {
+      // margin: 0 10px;
+      // color: $secondary;
+    }
+  }
+}
+
+//
+// .main
+//
+
+.posts > .post {
+}
+
+.posts > .post:last-child {
+}
+
+.post {
+  blockquote {
+  }
+  .comments {
+  }
+  .read-more {
+  }
+}
+
+.wrapper-footer {
+}
+
+footer {
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "_highlights";
+@import "_svg-icons";
