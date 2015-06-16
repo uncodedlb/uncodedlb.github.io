@@ -186,13 +186,20 @@ a:focus {
 
 .intro .row > div,
 .download-section .container > div {
-  background-color: darken(rgba($panel1-bg-tint,.9),40%);
+  background-color: darken(rgba($panel1-bg-tint,.4),40%);
   border-radius:20px;
   padding:20px;
 }
 
-.intro .intro-body .intro-text {
-    font-size: 18px;
+.intro .intro-body {
+    .intro-text {
+        font-size: 18px;
+    }
+
+    .call-to-action-text {
+        font-size: 16px;
+        margin-bottom:0;
+    }
 }
 
 @media(min-width:768px) {
