@@ -12,6 +12,7 @@ published: true
 								<div class="col-md-8 col-md-offset-2">
 										<h1 class="brand-heading">{{ page.title }}</h1>
 										<p class="intro-text">{{ site.description }}</p>
+										<p class="call-to-action-text">View our vision</p>
 										<a href="#about" class="btn btn-circle page-scroll">
 												<i class="fa fa-angle-double-down animated"></i>
 										</a>

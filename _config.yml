@@ -7,10 +7,10 @@
 # YAML Syntax: http://en.wikipedia.org/wiki/YAML#Syntax
 
 # Name of your site (Used in meta data and throughout site branding)
-name: "uncoded"
+name: "Uncoded"
 
 # Short bio or description (displayed in the <header> section)
-description: "We are open, transparent, community driven, we are <em>uncoded</em>"
+description: "We are open, transparent, community driven, we are <em>Uncoded</em> Long Beach"
 
 # Your website URL (e.g. http://username.github.io or http://www.yourdomain.foo)
 # Used for Sitemap.xml and your RSS feed
@@ -20,7 +20,7 @@ url: http://uncodedlb.github.io
 # (http://username.github.io/repository-name)
 # and NOT your User repository (http://username.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/uncoded.github.io"
+baseurl: ""
 
 # Customize navigation for the site
 navigation: # Site Navigation Menu elements: names and links
@@ -29,14 +29,14 @@ navigation: # Site Navigation Menu elements: names and links
     link: "#page-top"
     logo: "" # if empty, defaults to an arrow icon using font-awesome
   main: # Main Menu
-    e1: About
+    e1: Vision
     elink1: "#about"
-    e2: Download
+    e2: Initiatives
     elink2: "#download"
-    e3: Contact
+    e3: Get Involved
     elink3: "#contact"
   foot: # Footer Menu
-    e1: "Copyright &copy; 2015 lorem ipsum example"
+    e1: "Copyright &copy; 2015 Uncoded.org"
     elink1:
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
