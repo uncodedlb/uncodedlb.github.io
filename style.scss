@@ -301,7 +301,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 50px;
+    padding-top: 0;
 }
 
 .banner-section {
@@ -326,9 +326,15 @@ a:focus {
     width: 100%;
     height: 200px;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
+
+#get_involved {
+    h2 {
+        margin-top: 50px;
+    }
+}
 .events {
     margin: 0 25px;
     margin-top: 50px;
