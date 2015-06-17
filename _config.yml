@@ -10,11 +10,11 @@
 name: "Uncoded"
 
 # Short bio or description (displayed in the <header> section)
-description: "We are open, transparent, community driven, we are <em>Uncoded</em> Long Beach"
+description: "We are open, transparent, community driven. We are <em>Uncoded</em>, Long Beach"
 
 # Your website URL (e.g. http://username.github.io or http://www.yourdomain.foo)
 # Used for Sitemap.xml and your RSS feed
-url: 
+url:
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://username.github.io/repository-name)
