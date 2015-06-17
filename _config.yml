@@ -30,11 +30,11 @@ navigation: # Site Navigation Menu elements: names and links
     logo: "" # if empty, defaults to an arrow icon using font-awesome
   main: # Main Menu
     e1: Vision
-    elink1: "#about"
+    elink1: "#vision"
     e2: Initiatives
-    elink2: "#download"
+    elink2: "#initiatives"
     e3: Get Involved
-    elink3: "#contact"
+    elink3: "#get_involved"
   foot: # Footer Menu
     e1: "Copyright &copy; 2015 Uncoded.org"
     elink1:
@@ -79,6 +79,8 @@ fontawesome: "/font-awesome/css/font-awesome.min.css"
 jquery:
   main: "/js/jquery.js"
   easing: "/js/jquery.easing.min.js"
+lodash:
+  js: "/js/lodash.js"
 bootstrap:
   css: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"  # "css/bootstrap.min.css"
   js: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"     # "js/bootstrap.min.js"
