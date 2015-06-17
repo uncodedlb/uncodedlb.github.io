@@ -35,6 +35,15 @@ h6 {
     letter-spacing: 1px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
 code {
   color: $clr-code;
   background-color: $clr-code-bg;
@@ -135,7 +144,7 @@ a:focus {
 
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 20px 0;
+        padding: 30px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -292,11 +301,12 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
-.download-section {
+.banner-section {
     width: 100%;
+    height: 300px;
     padding: 50px 0;
     color: #fff;
     background: url($panel3-bg) no-repeat center center scroll;
@@ -307,15 +317,50 @@ a:focus {
     -o-background-size: cover;
 }
 
+.get-involved {
+    margin-top: 35px;
+
+}
+
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.events {
+    margin: 0 25px;
+    margin-top: 50px;
+    .event {
+        margin: 0 20%;
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            margin-bottom: 10px;
+        }
+
+        .date {
+            font-size: 16px;
+        }
+
+        .description {
+            font-size: 16px;
+        }
+    }
 }
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        // padding-top: 250px;
     }
 
     .download-section {
@@ -324,7 +369,7 @@ a:focus {
 
     #map {
         height: 400px;
-        margin-top: 250px;
+        margin-top: 0;
     }
 }
 
