@@ -50,14 +50,14 @@ avatar: https://avatars0.githubusercontent.com/u/12898756
 links:
   dribbble:
   email: lbuncoded@gmail.com
-  facebook:
+  facebook:groups/uncoded
   flickr:
-  github: MediaDoneRight/jekyll-theme-PartyOnGarth
+  github: uncodedlb
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: @lbuncoded
+  twitter: lbuncoded
   irc:
     nick:
     channels: # Comma separated list of channel(s), e.g. "#jekyll,#sculpin,#css,#sass,#less,#atom,#node.js,#io.js,#drupal,#nginx"
