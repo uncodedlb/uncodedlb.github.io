@@ -9,11 +9,18 @@ published: true
 		<div class="row">
 				<div class="">
 						<h2>Mission</h2>
-						<p>TODO</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non.</p>
-						<p>Non provident similique sunt in culpa qui officia deserunt. Mollitia animi, id est laborum et dolorum fuga et harum quidem rerum facilis est et? Expedita distinctio nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis voluptas assumenda est omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae itaque earum rerum hic tenetur a sapiente delectus ut aut reiciendis voluptatibus maiores.</p>
-						<p>Voluptatum deleniti atque corrupti quos dolores et quas? Molestias excepturi sint occaecati cupiditate non provident similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga et harum quidem rerum facilis est et expedita distinctio nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis voluptas assumenda est omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae itaque earum rerum hic tenetur a sapiente delectus ut.</p>
-						<p>Aliquid ex ea commodi consequatur quis autem vel eum iure reprehenderit qui in ea voluptate velit esse. Quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et.</p>
+						<p>To cultivate a passionate, sharing, and inventive local tech culture through open, inclusive engagement with our community.</p>
+            <h2>Vision</h2>
+						<p>We imagine a city where each aspect of the community can foster technological growth and provides an openness to share initiatives, ideas, and software freely.</p>
+						<h2>Our Initiative Pillar</h2>
+						<h3>Culture</h3>
+						<p>Foster community growth and involvement by working together to establish & maintain open technical platforms (e.g, websites, communication, social sites, project mgt, etc) and policies (or borrow from other communities) that foster sharing of ideas, encourage diversity, culture, and help avoid and resolve conflicts.  Aim towards building a culture of freely giving and sharing ideas.</p>
+						<h3>Education</h3>
+						<p>Foster events, projects, and programs to help teach marketable skills.  Engage with LB City Parks & Rec, LBUSD, LBCC, and CSULB to identify and suggests programs where we could help each other.  Engage with alternative educational programs and organizations to find areas we can help one another.  </p>
+						<h3>Business</h3>
+						<p>Engage with local tech businesses encouraging their involvement in our programs (presenters, venues, sponsorships) and give back to business by aligning our efforts to help educate community to meet their skillset needs. </p>
+						<h3>Community & Networking</h3>
+						<p>Active outreach of community networks by fostering innovative tech events championed by community leaders and volunteers.</p>
 				</div>
 		</div>
 </section>

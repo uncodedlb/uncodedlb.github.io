@@ -338,8 +338,19 @@ a:focus {
 .events {
     margin: 0 25px;
     margin-top: 50px;
+    clear:both;
+
     .event {
-        margin: 0 20%;
+        width: 30%;
+
+        padding: 0 2% 50px 2%;
+        display: inline-block;
+        vertical-align: top;
+
+
+        &.wapro {
+
+        }
 
         h2 {
             font-size: 24px;
@@ -347,11 +358,15 @@ a:focus {
         }
 
         h3 {
-            margin-bottom: 10px;
+            height: 100px;
+            margin-top: 30px;
+            margin-bottom: 35px;
+
         }
 
         h4 {
             margin-bottom: 10px;
+            line-height: 20px;
         }
 
         .date {
@@ -360,13 +375,14 @@ a:focus {
 
         .description {
             font-size: 16px;
+            min-height: 150px;
         }
     }
 }
 
 @media(min-width:767px) {
     .content-section {
-        // padding-top: 250px;
+        clear:both;
     }
 
     .download-section {
@@ -456,7 +472,14 @@ body {
 }
 
 
-
+#vision {
+    .row {
+        padding-top: 20px;
+    }
+    h2 {
+        padding-top: 40px;
+    }
+}
 
 
 // -------------------------- ORIGINAL JEKYLL-NOW SCSS SKELTON
@@ -571,3 +594,5 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";
 @import "_svg-icons";
+
+

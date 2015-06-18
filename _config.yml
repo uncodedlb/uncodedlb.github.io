@@ -10,7 +10,7 @@
 name: "Uncoded"
 
 # Short bio or description (displayed in the <header> section)
-description: "We are open, transparent, community driven. We are <em>Uncoded</em>, Long Beach"
+description: "We are open, transparent, community driven.<br />We are <em>Uncoded</em>, Long Beach"
 
 # Your website URL (e.g. http://username.github.io or http://www.yourdomain.foo)
 # Used for Sitemap.xml and your RSS feed
@@ -49,7 +49,7 @@ avatar: https://avatars0.githubusercontent.com/u/12898756
 # Includes an icon in the footer for each username you enter
 links:
   dribbble:
-  email: PartyOnGarth@MediaDoneRight.com
+  email: lbuncoded@gmail.com
   facebook:
   flickr:
   github: MediaDoneRight/jekyll-theme-PartyOnGarth
@@ -57,7 +57,7 @@ links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter:
+  twitter: @lbuncoded
   irc:
     nick:
     channels: # Comma separated list of channel(s), e.g. "#jekyll,#sculpin,#css,#sass,#less,#atom,#node.js,#io.js,#drupal,#nginx"
