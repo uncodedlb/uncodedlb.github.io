@@ -49,7 +49,7 @@ avatar: https://avatars0.githubusercontent.com/u/12898756
 # Includes an icon in the footer for each username you enter
 links:
   dribbble:
-  email: "lbuncoded@gmail.com"
+  email: "uncodedlb@gmail.com"
   facebook: "groups/uncoded"
   flickr:
   github: "uncodedlb"
@@ -57,10 +57,10 @@ links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: "lbuncoded"
+  twitter: "uncodedlb"
   irc:
-    nick:
-    channels: # Comma separated list of channel(s), e.g. "#jekyll,#sculpin,#css,#sass,#less,#atom,#node.js,#io.js,#drupal,#nginx"
+    nick: uncodedlb_guest
+    channels: "#jekyll,#sculpin,#css,#sass,#less,#atom,#node.js,#io.js,#drupal,#nginx,#uncoded,#uncodedlb"
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
