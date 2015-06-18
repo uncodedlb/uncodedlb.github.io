@@ -81,6 +81,9 @@ a:focus {
     font-weight: 400;
 }
 
+.navbar-custom + p {
+  margin:0; // fix jekyll rendering of empty p tags
+}
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: $clr-navbar-border-thickness $clr-navbar-border-type $clr-navbar-border;
@@ -342,10 +345,10 @@ a:focus {
 
     .event {
         width: 30%;
-
         padding: 0 2% 50px 2%;
         display: inline-block;
         vertical-align: top;
+        border: 1px solid #333;
 
 
         &.wapro {
@@ -630,5 +633,3 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";
 @import "_svg-icons";
-
-
