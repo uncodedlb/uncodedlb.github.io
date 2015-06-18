@@ -36,7 +36,7 @@ published: true
       <h4>10am Every Saturday at <a href="www.madelb.com/" target="_blank" >MADE</a></h4>
     </div>
     <div class="event">
-      <h3>Hack Nights</h3>
+      <h3>Hack<br />Nights</h3>
       <p class="description">
         Like Code & Coffee, devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session
         <br />
@@ -52,7 +52,7 @@ published: true
       <h4>Organizing Now</h4>
     </div>
     <div class="event">
-      <h3>Technology Pitch Events</h3>
+      <h3>Technology<br />Pitch Events</h3>
       <p class="description">
         Beginning in July, Uncoded will be supporting a monthly technology concept pitch event in Long Beach.
         <br />

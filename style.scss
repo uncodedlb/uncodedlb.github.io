@@ -380,6 +380,42 @@ a:focus {
     }
 }
 
+@media(max-width:767px) {
+    .events {
+        margin: 0 15px;
+
+        .event {
+            width: 44%;
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .events {
+        .event {
+            width: 100%;
+            padding: 0;
+            padding-bottom: 50px;
+
+             h3 {
+                margin-bottom: 0;
+            }
+
+            &.wwt {
+                h3 {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .description {
+                min-height: inherit;
+            }
+        }
+    }
+}
+
 @media(min-width:767px) {
     .content-section {
         clear:both;
