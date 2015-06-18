@@ -3,7 +3,6 @@ layout: post
 title: uncoded
 published: true
 ---
-<!-- Intro Header -->
 <header class="intro">
 		<div class="intro-body">
 				<div class="container">
