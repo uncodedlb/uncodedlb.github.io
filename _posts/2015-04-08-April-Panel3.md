@@ -41,7 +41,7 @@ published: true
         Like Code & Coffee, devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session
         <br />
       </p>
-      <h4>Starting in July</h4>
+      <h4>July 9th & 16th</h4>
     </div>
     <div class="event">
       <h3>Uncoded Community Barnraisings</h3>
