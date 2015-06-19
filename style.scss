@@ -303,6 +303,9 @@ a:focus {
     }
 }
 
+#initiatives {
+  //background-color: $brand-c1;
+}
 .content-section {
     padding-top: 0;
 }
@@ -348,8 +351,6 @@ a:focus {
         padding: 0 2% 50px 2%;
         display: inline-block;
         vertical-align: top;
-        border: 1px solid #333;
-
 
         &.wapro {
 
