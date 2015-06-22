@@ -61,7 +61,7 @@ links:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: "uncodedlb"
   irc:
-    nick: uncodedlb_guest
+    nick: kiwi_uncodedlb
     channels: "#jekyll,#sculpin,#css,#sass,#less,#atom,#node.js,#io.js,#drupal,#nginx,#uncoded,#uncodedlb"
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 

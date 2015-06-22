@@ -8,5 +8,5 @@
 {% if site.links.pinterest %}<a href="http://pinterest.com/{{ site.links.pinterest }}"><i class="svg-icon pinterest"></i></a>{% endif %}
 {% if site.links.rss %}<a href="{{ site.baseurl }}/feed.xml"><i class="svg-icon rss"></i></a>{% endif %}
 {% if site.links.twitter %}<a href="http://twitter.com/{{ site.links.twitter }}"><i class="svg-icon twitter"></i></a>{% endif %}
-{% if site.links.irc.channels %}<a target="_blank" href="http://webchat.freenode.net/?nick={{ site.links.irc.nick }}&channels={{ site.links.irc.channels | uri_escape }}&prompt=1&uio=OT10cnVlJjEwPXRydWU3a"><i class="svg-icon irc"></i></a>{% endif %}
+{% if site.links.irc.channels %}<a target="_blank" href="https://kiwiirc.com/client/irc.freenode.net/?nick={{ site.links.irc.nick }}|?{{ site.links.irc.channels }}"><i class="svg-icon irc"></i></a>{% endif %}
 {% if site.links.stackoverflow %}<a href="http://stackoverflow.com/{{ site.links.stackoverflow }}"><i class="svg-icon stackoverflow"></i></a>{% endif %}
