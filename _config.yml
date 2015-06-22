@@ -33,8 +33,10 @@ navigation: # Site Navigation Menu elements: names and links
     elink1: "#vision"
     e2: Initiatives
     elink2: "#initiatives"
-    e3: Get Involved
-    elink3: "#get_involved"
+    e3: Learn More
+    elink3: "#learn_more"
+    e4: Get Involved
+    elink4: "#get_involved"
   foot: # Footer Menu
     e1: "Copyright &copy; 2015 Uncoded.org"
     elink1:
