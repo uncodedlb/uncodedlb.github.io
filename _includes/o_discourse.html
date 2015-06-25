@@ -1,0 +1,16 @@
+{% if site.discourse.enabled %}
+
+<div id="discourse-comments"></div>
+
+<script type="text/javascript">
+  var discourseUrl = "{{ site.discourse.url }}",
+      discourseEmbedUrl = '{{ site.url }}{{ page.url }}';
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+      d.src = discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://discourse.uncoded.org/?ref_noscript" rel="nofollow">Uncoded Community Forum.</a></noscript>
+{% endif %}

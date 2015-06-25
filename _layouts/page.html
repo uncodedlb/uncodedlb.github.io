@@ -9,4 +9,6 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
+  {% include o_disqus.html disqus_identifier=page.disqus_identifier %}
+  {% include o_discourse.html %}
 </article>
