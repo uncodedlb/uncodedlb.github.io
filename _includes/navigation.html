@@ -12,7 +12,6 @@
 								{{ site.navigation.brand.text }}
 						</a>
 				</div>
-
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 						<ul class="nav navbar-nav">
@@ -20,18 +19,17 @@
 								<li class="hidden">
 										<a href="#page-top"></a>
 								</li>
-								<li>
-									<a class="page-scroll" href="{{ site.navigation.main.elink1 }}">{{ site.navigation.main.e1 }}</a>
-								</li>
-								<li>
-									<a class="page-scroll" href="{{ site.navigation.main.elink2 }}">{{ site.navigation.main.e2 }}</a>
-								</li>
-								<li>
-									<a class="page-scroll" href="{{ site.navigation.main.elink3 }}">{{ site.navigation.main.e3 }}</a>
-								</li>
-								<li>
-									<a class="page-scroll" href="{{ site.navigation.main.elink4 }}">{{ site.navigation.main.e4 }}</a>
-								</li>
+								{% for link in site.navigation.main %}
+									{% if page.url == "/forum/" %}
+										<li>
+											<a class="page-scroll" href="/{{ link[1] }}">{{ link[0] }}</a>
+										</li>
+									{% else %}
+										<li>
+											<a class="page-scroll"  href="{{ link[1] }}">{{ link[0] }}</a>
+										</li>
+									{% endif %}
+								{% endfor %}
 						</ul>
 				</div>
 				<!-- /.navbar-collapse -->

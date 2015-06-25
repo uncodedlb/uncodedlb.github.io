@@ -3,7 +3,15 @@
 <footer>
 		<div class="container text-center">
 			{% include o_svg-icons.html %}
-			<p>{{ site.navigation.foot.e1 }}</p>
+			<p>
+				{% for link in site.navigation.foot %}
+					{% if link[1] %}
+				  	<a href="{{ link[1] }}">{{ link[0] }}</a>  
+					{% else %}
+						{{ link[0] }}
+					{% endif %}
+				{% endfor %}
+			</p>
 		</div>
 </footer>
 {% endif %}
