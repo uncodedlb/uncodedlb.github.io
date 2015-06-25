@@ -1,0 +1,13 @@
+---
+---
+User-agent: *
+# Exclude paths in site.exclude
+{% for path in site.exclude %}Disallow: /{{ path }}
+{% endfor %}
+# Exclude any pages with 'noindex = true'
+{% for node in site.pages %}{% if node.noindex %}{% assign isset = true %}Disallow: {{ node.url }}
+{% endif %}{% endfor %}{% if isset != true %}Disallow:
+{% endif %}
+{% comment %}
+Sitemap: {{ site.url }}/sitemap.xml
+{% endcomment %}
