@@ -22,13 +22,13 @@ url: http://www.uncoded.org
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-# Customize navigation for the site
+# Customize menu names & links for the site
 navigation: # Site Navigation Menu elements: names and links
   brand:
     text: "<span class='light'>uncoded</span>"
     link: "#page-top"
     logo: "" # if empty, defaults to an arrow icon using font-awesome
-  main: # Main Menu ( "LABEL": "URL" )
+  main: # Main Menu  ( "LABEL": "URL" )
     "Vision": "#vision"
     "Initiatives": "#initiatives"
     "Learn More": "#learn_more"

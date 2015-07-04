@@ -2,12 +2,12 @@
 layout: post
 title: "Learn More"
 youtubeID: "DQMD_o6spok"
-autohide: 1    # 0 - hide controls, 1 - show, 2 - show then autohide
+autohide: 1    # 0 - hide controls, 1 - show, 2 - show then autohide (default)
 autoplay: 0    # 0 - don't autoplay (default), 1 = play
 loop: 1        # 0 - don't loop (default), 1 - loop
 playsinline: 0 # 0 - fullscreen (default), 1 - inline
 rel: 0         # 0 - don't show related, 1 - show related (default)
-showinfo: 0    # 0 - don't show info like title/uploader, 1 - show info
+showinfo: 0    # 0 - don't show info like title/uploader, 1 - show info (default)
 published: true
 ---
 <div id="ytplayer" class="video1">

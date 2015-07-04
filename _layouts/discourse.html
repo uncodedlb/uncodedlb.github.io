@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<header class="intro">
+		<div class="intro-body">
+				<div class="container">
+						<div class="row">
+								<div class="col-sm-10 col-md-offset-1">
+										<h2 class=""><i class="fa fa-terminal"></i> {{ page.title }}</h2>
+										<p class="">{{ content }}</p>
+										<a href="#forum" class="btn btn-circle page-scroll">
+												<i class="fa fa-angle-double-down animated"></i>
+										</a>
+								</div>
+						</div>
+				</div>
+		</div>
+</header>
+<section id="forum" class="content-section">
+    <div class="banner-section">
+    </div>
+    {% include o_discourse.html %}
+</section>
