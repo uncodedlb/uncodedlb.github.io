@@ -10,14 +10,12 @@ published: true
   <h2>Initiatives</h2>
   <div class="events">
     <div class="event wapro">
-      <h3><a href="http://wapro.lbtech.org"><img src="http://wapro.lbtech.org/images/WAPRO.png" alt="WAPRO logo" style="width:120px"></a></h3>
+      <h3><a href="http://www.waprolb.org"><img src="http://www.waprolb.org/images/WAPRO.png" alt="WAPRO logo" style="width:120px"></a></h3>
       <p class="description">
-        WAPRO meets monthly to showcase our cool tech projects, share best practices, network with each other, help newcomers, and uphold the values of open source software (F/OSS). We strive to do this in a professional, relaxed, respectful, and open venue for all people in our community.
-        <br />
+        WAPRO, an acronym for <strong>Web & Application Professionals</strong>, meets monthly to showcase our cool tech projects, share best practices, network with each other, help newcomers, and uphold the values of open source software (F/OSS). We strive to do this in a professional, relaxed, respectful, and open venue for all people in our community.
+        <br/>
       </p>
-      <h4>Next Event</h4>
-      <p class="date">July 16th 2015</p>
-      <a href="http://wapro.lbtech.org/news/">PAST EVENTS</a>
+      <h4><a target="_blank" href="http://www.waprolb.org/meetup/">Next Event</a></h4>
     </div>
     <div class="event wwt">
       <h3><img src="/img/wwtech.png" alt="Wonder Women Technology Conference" style="width:100px"></h3>
