@@ -26,6 +26,7 @@ published: true
           <!-- dd>This document explains how Uncoded came to be, our vision, and some ways you can be involved. We welcome your feedback.  The document has comment access open to everyone.</dd -->
           <dt class="learn-more"><a href="https://www.google.com/calendar/ical/tkk7568vjd3tsohbsbeof82c9g%40group.calendar.google.com/public/basic.ics" rel=nofollow" target="_Blank"><i class="fa fa-calendar fa-2x"></i> Uncoded Public Calendar (iCal)</a></dt>
           <!-- dd>Add our iCal feed to your calendar to stay up-to-date on our initiatives.</dd -->
+          <dt class="learn-more"><a href="http://j.mp/uncodedlb-share" rel=nofollow" target="_Blank"><i class="fa fa-folder fa-2x"></i> Uncoded Shared Folder (google drive)</a></dt>
         </dl>
         <p ></p>
       </div>
