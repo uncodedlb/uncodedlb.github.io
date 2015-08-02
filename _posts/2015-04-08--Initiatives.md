@@ -31,7 +31,7 @@ published: true
         The main goals of Code & Coffee are to create an environment where we can casually work together as well as learn from and help each other. Anyone of any skill level can come and hang out with others who share programming as an interest.
         <br />
       </p>
-      <h4>10am Every Saturday at <a href="www.madelb.com/" target="_blank" >MADE</a></h4>
+      <h4>10am Every Saturday at <a href="http://www.madelb.com/" target="_blank" >MADE</a></h4>
     </div>
     <div class="event">
       <h3>Hack<br />Nights</h3>
