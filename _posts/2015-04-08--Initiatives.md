@@ -39,7 +39,7 @@ published: true
         Like Code + Coffee, devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session
         <br />
       </p>
-      <h4><a href="http://www.meetup.com/uncoded/" target="_blank">Tuesday</a> @ <a href="http://www.welabs.us/" target="_blank">WELabs</a></h4>
+      <h4><a href="http://www.meetup.com/uncoded/" target="_blank">Tuesdays</a> @ <a href="http://www.welabs.us/" target="_blank">WELabs</a></h4>
     </div>
     <div class="event">
       <h3>Uncoded Community Barnraisings</h3>
