@@ -18,28 +18,28 @@ published: true
       <h4><a target="_blank" href="http://www.waprolb.org/meetup/">Next Event</a></h4>
     </div>
     <div class="event wwt">
-      <h3><img src="/img/wwtech.png" alt="Wonder Women Technology Conference" style="width:100px"></h3>
+      <h3><a href="http://wonderwomentech.com/" target="_blank"><img src="/img/wwtech.png" alt="Wonder Women Technology Conference" style="width:100px"></a></h3>
       <p class="description">
         Our goal is to create a conference franchise, anchored in Long Beach, accessible to everyone, remaining non-exclusive and that will provide stellar programming, content, and speakers dedicated to highlighting, celebrating and educating women (and men) in Tech, STEAM and innovation.
         <br />
       </p>
-      <h4>Venue & date coming soon</h4>
+      <h4><a href="http://wonderwomentech.com/" target="_blank">July 15th - 17th, 2016 at the Long Beach Convention Center</a></h4>
     </div>
     <div class="event cc">
-      <h3>Code<br />&&<br />Coffee</h3>
+      <h3><a href="http://www.codeandcoffeelb.org/" target="_blank"><img src="/img/codeandcoffee.png" alt="Code + Coffee, Long Beach" style="width:120px;"></a></h3>
       <p class="description">
-        The main goals of Code & Coffee are to create an environment where we can casually work together as well as learn from and help each other. Anyone of any skill level can come and hang out with others who share programming as an interest.
+        Code + Coffee is a weekly event bringing together programmers of all ages, skills and experiences in a casual environment to share, collaborate, and hack together. We gather at 10am every Saturday at MADE on Pine Avenue. Bring a laptop and an interest in programming.
         <br />
       </p>
-      <h4>10am Every Saturday at <a href="http://www.madelb.com/" target="_blank" >MADE</a></h4>
+      <h4><a href="http://www.codeandcoffeelb.org/" target="_blank">10am every Saturday</a></h4>
     </div>
     <div class="event">
       <h3>Hack<br />Nights</h3>
       <p class="description">
-        Like Code & Coffee, devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session
+        Like Code + Coffee, devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session
         <br />
       </p>
-      <h4>July 9th & 16th</h4>
+      <h4><a href="http://www.meetup.com/uncoded/" target="_blank">Tuesday</a> @ <a href="http://www.welabs.us/" target="_blank">WELabs</a></h4>
     </div>
     <div class="event">
       <h3>Uncoded Community Barnraisings</h3>
