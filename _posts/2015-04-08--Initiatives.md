@@ -28,7 +28,7 @@ published: true
     <div class="event cc">
       <h3><a href="http://www.codeandcoffeelb.org/" target="_blank"><img src="/img/codeandcoffee.png" alt="Code + Coffee, Long Beach" style="width:120px;"></a></h3>
       <p class="description">
-        Code + Coffee is a weekly event bringing together programmers of all ages, skills and experiences in a casual environment to share, collaborate, and hack together. We gather at 10am every Saturday at <a href="http://www.critiqueit.com/">CritiqueIt</a> in downtown at 235 E. Broadway, #506. Bring a laptop and an interest in programming.
+        Code + Coffee is a weekly event bringing together programmers of all ages, skills and experiences in a casual environment to share, collaborate, and hack together. We gather at 10am every Saturday at <a href="http://www.critiqueit.com/">CritiqueIt</a> in downtown at 235 E. Broadway, Suite 506. Bring a laptop and an interest in programming.
         <br />
       </p>
       <h4><a href="http://www.codeandcoffeelb.org/" target="_blank">10am every Saturday</a></h4>
