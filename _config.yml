@@ -100,7 +100,7 @@ googlefonts: "http://fonts.googleapis.com/css?family=Montserrat:400,700|Lora:400
 googlemaps: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" # - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
 
 
-markdown: redcarpet
+# markdown: redcarpet  # removed due to depreciation to kramdown 5/1/2016 
 highlighter: pygments
 permalink: /:title/
 
