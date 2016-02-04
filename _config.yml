@@ -100,7 +100,7 @@ googlefonts: "http://fonts.googleapis.com/css?family=Montserrat:400,700|Lora:400
 googlemaps: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" # - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
 
 
-# markdown: redcarpet  # removed due to depreciation to kramdown 5/1/2016 
+# markdown: redcarpet  # removed due to depreciation to kramdown 5/1/2016
 highlighter: pygments
 permalink: /:title/
 
@@ -115,6 +115,8 @@ sass:
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-redirect-from # 301 redirects - https://help.github.com/articles/redirects-on-github-pages/
+#  - html-proofer ## travis CI per: http://jekyllrb.com/docs/continuous-integration/
 
 # Exclude these files from your production _site
 exclude:
@@ -124,3 +126,4 @@ exclude:
   - README.md
   - .gitignore
   - .editorconfig
+  - vendor # CI Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
