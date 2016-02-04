@@ -18,7 +18,7 @@ published: true
       <h4><a target="_blank" href="http://www.waprolb.org/meetup/">Next Event</a></h4>
     </div>
     <div class="event wwt">
-      <h3><a href="http://wonderwomentech.com/" target="_blank"><img src="/img/wwtech.png" alt="Wonder Women Technology Conference" style="width:100px"></a></h3>
+      <h3><a href="http://wonderwomentech.com/" target="_blank" rel="nofollow"><img src="/img/wwtech.png" alt="Wonder Women Technology Conference" style="width:100px"></a></h3>
       <p class="description">
         Our goal is to create a conference franchise, anchored in Long Beach, accessible to everyone, remaining non-exclusive and that will provide stellar programming, content, and speakers dedicated to highlighting, celebrating and educating women (and men) in Tech, STEAM and innovation.
         <br />
