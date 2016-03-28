@@ -43,6 +43,7 @@ avatar: https://avatars0.githubusercontent.com/u/12898756
 #
 # Flags below are optional
 #
+timezone: America/Los_Angeles
 
 # Includes an icon in the footer for each username you enter
 links:
