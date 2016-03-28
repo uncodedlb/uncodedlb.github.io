@@ -14,9 +14,10 @@ published: true
   {% if initiative.published == true %}
     <div class="event">
       <h3><a href="{{ initiative.url }}" alt="link to initiative"><img src='{{ initiative.logo }}' alt='initiative logo' style="width:120px"></a></h3>
+      <h5>{{ initiative.freq }}</h5>
       <p class="description">{{ initiative.description }}<br/>
       </p>
-      {{ initiative.more }}
+      <h4>{{ initiative.more }}</h4>
     </div>
   {% endif %}
   {% endfor %}
