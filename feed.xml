@@ -7,12 +7,13 @@ layout: null
     <title>{{ site.name | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.url }}feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>{{ post.excerpt | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <!-- time datetime='{{ post.date | date: "%F" }}T{{ post.meeting_start }}{{ post.date | date: "%z" }}'>{{ post.date | date: "%Y %B" }} Meetup</time -->
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>

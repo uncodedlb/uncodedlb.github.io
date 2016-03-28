@@ -9,5 +9,5 @@ User-agent: *
 {% endif %}{% endfor %}{% if isset != true %}Disallow:
 {% endif %}
 {% comment %}
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}sitemap.xml
 {% endcomment %}
