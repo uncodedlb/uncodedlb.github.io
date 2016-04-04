@@ -33,7 +33,6 @@ navigation: # Site Navigation Menu elements: names and links
     "Initiatives": "#initiatives"
     "Learn More": "#learn_more"
     "Get Involved": "#get_involved"
-    "Forum": "http://discourse.uncoded.org/"
   foot: # Footer Menu
     "Copyright &copy; 2015 Uncoded.org":
 
@@ -75,7 +74,7 @@ disqus:
 # Setup://blog.discourse.org/2014/04/install-discourse-in-under-30-minutes/
 # Based on http://eviltrout.com/2014/01/22/embedding-discourse.html
 discourse:
-  enabled: true
+  enabled: false
   url: "http://discourse.uncoded.org/" #discourseUrl - points to the root URL of your Discourse forum.
   # Make sure discourseEmbedUrl is the canonical URL to the page where you are embedding Discourse. You will want to make sure this uniquely identifies the page. For my blog template, I use the following code to link to the article: discourseEmbedUrl = 'http://eviltrout.com<%= current_page.url %>'
 
