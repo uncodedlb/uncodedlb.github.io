@@ -7,7 +7,7 @@
 								<i class="fa fa-bars"></i>
 						</button>
 						<a class="navbar-brand page-scroll" href="{% if post.permalink != '/' and page.permalink != '/' %}/{% endif %}{{ site.navigation.brand.link }}">
-								{% if site.navigation.brand.logo %}<img class="" src="{{ site.navigation.brand.logo }}">
+								{% if site.navigation.brand.logo != "" %}<img class="" src="{{ site.navigation.brand.logo }}" alt="logo">
 								 {% else %}<i class="fa fa-terminal"></i>  {% endif %}
 								{{ site.navigation.brand.text }}
 						</a>

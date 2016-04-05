@@ -1,6 +1,6 @@
  - name: FishHackathon
    description: Calling all coders to the 3rd annual Fishackathon, April 22-24.  It’s gonna be off the hook! Registration is now open!
-   url: http://www.fishackathon.co/
+   url: http://www.fishackathon.co
    logo: /img/logo-fishackathon-wh.png
    more: <a href="http://www.meetup.com/Uncoded/events/229797242/" target="_blank">RSVP NOW!</a>
    freq: Annually
@@ -16,7 +16,7 @@
 
  - name: Hack Nights
    description: Like Code + Coffee, devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
-   url:
+   url: http://www.meetup.com/uncoded/
    logo: /img/logo-hacknights-wh.png
    more: <a href="http://www.meetup.com/uncoded/" target="_blank">Tuesdays @ WELabs</a>
    freq: Weekly
