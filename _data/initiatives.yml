@@ -40,9 +40,9 @@
 
  - name: Uncoded Community Barnraisings
    description: By engaging community members, organizations and efforts in the entire process, particularly the concept and design of technology applications, Uncoded is implementing a new model of hacktivism and barnraisings focused first and foremost on expressed and identified community need.
-   url: /#initiatives
+   url: barn-raising
    logo: /img/logo-barnraising-wh.png
-   more: <a href="http://www.meetup.com/uncoded/" target="_blank">Organizing Now</a>
+   more: <a href="barn-raising">Organizing Now</a>
    freq: Sporadic
    published: true
 
