@@ -3,7 +3,7 @@ layout: post
 title: "Learn More"
 youtubeID: "DQMD_o6spok"
 autohide: 1    # 0 - hide controls, 1 - show, 2 - show then autohide (default)
-autoplay: 1    # 0 - don't autoplay (default), 1 = play
+autoplay: 0    # 0 - don't autoplay (default), 1 = play
 loop: 1        # 0 - don't loop (default), 1 - loop
 playsinline: 0 # 0 - fullscreen (default), 1 - inline
 rel: 0         # 0 - don't show related, 1 - show related (default)
