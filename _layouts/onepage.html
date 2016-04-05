@@ -5,12 +5,6 @@ layout: default
 {% for post in site.posts %}
   {% if post.categories contains "homepage" %}
     {% if forloop.first == true %}
-
         {{ post.content }}
-
-    {% else %}
-    {% include post-tags.html %}
-        {{ post.content }}
-    {% endif %}
   {% endif %}
 {% endfor %}
