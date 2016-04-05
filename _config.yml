@@ -33,7 +33,7 @@ navigation: # Site Navigation Menu elements: names and links
     "Initiatives": "#initiatives"
     "Learn More": "#learn_more"
     "Get Involved": "#get_involved"
-    "Barn Raising": "barn-raising"
+#    "Barn Raising": "barn-raising"
   foot: # Footer Menu
     "Copyright &copy; 2015 Uncoded.org":
 
