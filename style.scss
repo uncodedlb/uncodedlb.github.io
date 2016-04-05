@@ -35,6 +35,11 @@ h6 {
     letter-spacing: 1px;
 }
 
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
 h2 {
     text-align: center;
     font-size: 34px;
@@ -42,6 +47,19 @@ h2 {
 
 h3 {
     font-size: 26px;
+}
+
+em {
+  font-style: italic;
+  color: $primary;
+}
+
+ul,
+ol {
+    margin: 0 0 35px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    list-style: disc;
+    list-style-position: inside;
 }
 
 code {
@@ -660,6 +678,40 @@ nav {
 }
 
 footer {
+}
+
+
+// for tag cloud and archives
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  font-size: 16px;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0;
+  }
+}
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-top: 1px solid #ddd;
+}
+.archive-item {
+  margin-left: 5px;
+}
+.post-tags {
+  text-align: right;
+}
+
+// Pages
+
+@media(min-width:768px) {
+  .page {
+      padding-top: 12em;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
