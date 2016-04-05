@@ -3,10 +3,14 @@ layout: default
 ---
 
 {% for post in site.posts %}
-  {% if forloop.first == true %}
-      {{ post.content }}
+  {% if post.categories contains "homepage" %}
+    {% if forloop.first == true %}
 
-  {% else %}
-      {{ post.content }}
+        {{ post.content }}
+
+    {% else %}
+    {% include post-tags.html %}
+        {{ post.content }}
+    {% endif %}
   {% endif %}
 {% endfor %}
