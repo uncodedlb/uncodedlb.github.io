@@ -6,5 +6,6 @@ layout: default
   {% if post.categories contains "homepage" %}
     {% if forloop.first == true %}
         {{ post.content }}
+    {% endif %}
   {% endif %}
 {% endfor %}
