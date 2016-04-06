@@ -4,6 +4,7 @@
    logo: /img/logo-fishackathon-wh.png
    more: <a href="http://www.meetup.com/Uncoded/events/229797242/" target="_blank">RSVP NOW!</a>
    freq: Annually
+   type: uncoded
    published: true
 
  - name: Code && Coffee
@@ -12,6 +13,7 @@
    logo: /img/logo-codeandcoffee.png
    more: <a href="http://www.codeandcoffeelb.org/" target="_blank">10am every Saturday</a>
    freq: Weekly
+   type: uncoded
    published: true
 
  - name: Hack Nights
@@ -20,6 +22,16 @@
    logo: /img/logo-hacknights-wh.png
    more: <a href="http://www.meetup.com/uncoded/" target="_blank">Tuesdays @ WELabs</a>
    freq: Weekly
+   type: uncoded
+   published: true
+
+ - name: FPLongBeach
+   description: FPLB is monthly get together for functional programming enthusiasts. Regardless of your choice of language or experience, if you're interested in controlling side effects and a little lambda calculus (or if have no idea what those mean), come on in!
+   url: http://www.FPLongBeach.com
+   logo: /img/logo-fplongbeach-wh.png
+   more: <a target='_blank' href='http://www.FPLongBeach.com/'>Next Event</a>
+   freq: Monthly
+   type: uncoded
    published: true
 
  - name: WAPRO
@@ -28,6 +40,7 @@
    logo: /img/logo-wapro.png
    more: <a target='_blank' href='http://www.waprolb.org/meetup/'>Next Event</a>
    freq: Monthly
+   type: uncoded
    published: true
 
  - name: Techworking
@@ -36,6 +49,7 @@
    logo: /img/logo-techworking-wh.png
    more: <a href="http://www.meetup.com/uncoded/" target="_blank">Last Wednesday Every Month</a>
    freq: Monthly
+   type: uncoded
    published: true
 
  - name: Uncoded Community Barnraisings
@@ -44,6 +58,7 @@
    logo: /img/logo-barnraising-wh.png
    more: <a href="barn-raising">Organizing Now</a>
    freq: Sporadic
+   type: uncoded
    published: true
 
  - name: NEXT Tech Pitch Events
@@ -52,6 +67,7 @@
    logo: /img/logo-next-wh.png
    more: <a href="http://www.meetup.com/uncoded/" target="_blank">Organizing Now</a>
    freq: Sporadic
+   type: uncoded
    published: true
 
  - name: Wonder Women Technology Conference
@@ -60,4 +76,5 @@
    logo: /img/logo-wwtech.png
    more: <a href="http://wonderwomentech.com/" target="_blank">July 15th - 17th, 2016 at the Long Beach Convention Center</a>
    freq: Annual
+   type: partner
    published: true
