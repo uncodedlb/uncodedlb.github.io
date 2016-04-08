@@ -49,4 +49,5 @@ Tech hobbyists (of all levels) are encouraged to participate in any way they are
 
 Students involved in this effort will be working on a real world application that can be used as a project on a resume. In addition, Those students that contribute substantially to the project can use our org as a reference when you are out looking for a job.
 
-Our first informational meeting will be *Saturday April 23. Please sign-up using the Google form below, or using [meetup.com/uncoded/TBD](http://www.meetup.com/uncoded/).*
+Our first planning meeting will be the week after [Fishackathon](http://www.Fishackathon.co) (April 22-24). <!-- Please sign-up using the Google form below, or using [meetup.com/uncoded/TBD](http://www.meetup.com/uncoded/).*
+-->
