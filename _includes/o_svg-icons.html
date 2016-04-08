@@ -1,13 +1,17 @@
+{% comment%} Added slack link, but need to convert it to glyph, or convert the glyphs to font-awesome
+{% endcomment%}
+{% if site.links.slack-channel %}<a href="https://{{ site.links.slack-channel }}.slack.com"><i class="svg-icon fa fa-slack fa-2x"></i></a>{% endif %}
 {% if site.links.facebook %}<a href="http://facebook.com/{{ site.links.facebook }}"><i class="svg-icon fa fa-facebook fa-2x"></i></a>{% endif %}
 {% if site.links.twitter %}<a href="http://twitter.com/{{ site.links.twitter }}"><i class="svg-icon fa fa-twitter fa-2x"></i></a>{% endif %}
-{% if site.links.email %}<a href="mailto:{{ site.links.email }}"><i class="svg-icon fa fa-envelope fa-2x"></i></a>{% endif %}
-{% if site.links.github %}<a href="http://github.com/{{ site.links.github }}"><i class="svg-icon fa fa-github fa-2x"></i></a>{% endif %}
 {% if site.links.instagram %}<a href="http://instagram.com/{{ site.links.instagram }}"><i class="svg-icon fa fa-instagram fa-2x"></i></a>{% endif %}
+{% if site.links.github %}<a href="http://github.com/{{ site.links.github }}"><i class="svg-icon fa fa-github fa-2x"></i></a>{% endif %}
+{% if site.links.email %}<a href="mailto:{{ site.links.email }}"><i class="svg-icon fa fa-envelope fa-2x"></i></a>{% endif %}
 {% if site.links.meetup %}<a href="http://www.meetup.com/{{ site.links.meetup }}"><i class="svg-icon fa fa-group fa-2x"></i></a>{% endif %}
 {% if site.links.irc.channels %}<a target="_blank" href="https://kiwiirc.com/client/irc.freenode.net/?nick={{ site.links.irc.nick }}|?{{ site.links.irc.channels }}"><i class="svg-icon fa fa-comment fa-2x"></i></a>{% endif %}
-{% if site.links.rss %}<a href="{{ site.baseurl }}/feed.xml"><i class="svg-icon fa fa-rss fa-2x"></i></a>{% endif %}
 {% if site.links.dribbble %}<a href="http://dribbble.com/{{ site.links.dribbble }}"><i class="svg-icon dribbble"></i></a>{% endif %}
 {% if site.links.flickr %}<a href="http://flickr.com/{{ site.links.flickr }}"><i class="svg-icon flickr"></i></a>{% endif %}
 {% if site.links.linkedin %}<a href="http://linkedin.com/in/{{ site.links.linkedin }}"><i class="svg-icon linkedin"></i></a>{% endif %}
 {% if site.links.pinterest %}<a href="http://pinterest.com/{{ site.links.pinterest }}"><i class="svg-icon pinterest"></i></a>{% endif %}
 {% if site.links.stackoverflow %}<a href="http://stackoverflow.com/{{ site.links.stackoverflow }}"><i class="svg-icon stackoverflow"></i></a>{% endif %}
+{% if site.links.slack-invite %}<a href="http://{{ site.links.slack-invite }}" target="_blank" class="fa fa-bolt" style=""><i alt="foo" class="fa fa-slack fa-2x" style="margin-left:-50%px"></i><!--i alt="foo" class="svg-icon fa fa-sign-in fa-2x" style="width:20px"></i --></a>{% endif %}
+{% if site.links.rss %}<a href="{{ site.baseurl }}/feed.xml"><i class="svg-icon fa fa-rss fa-2x"></i></a>{% endif %}

@@ -57,11 +57,13 @@ links:
   pinterest:
   rss: true # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: "uncodedlb"
+  slack-invite: j.mp/uncoded-slack # directs to ://uncoded-slack-inviter.herokuapp.com
+  slack-channel: uncodedlb
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   meetup: uncoded # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   irc:
-    nick: kiwi_uncodedlb
-    channels: "#jekyll,#sculpin,#css,#sass,#less,#atom,#node.js,#io.js,#drupal,#nginx,#uncodedlb"
+    nick: #kiwi_uncodedlb
+    channels: #"#jekyll,#sculpin,#css,#sass,#less,#atom,#node.js,#io.js,#drupal,#nginx,#uncodedlb"
 
 collections:
   pages:
