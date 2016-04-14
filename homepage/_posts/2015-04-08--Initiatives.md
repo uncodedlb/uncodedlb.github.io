@@ -13,7 +13,7 @@ published: true
   {% for initiative in site.data.initiatives %}
   {% if initiative.type == 'uncoded' and initiative.published == true %}
     <div class="event">
-      <h3><a href="{{ initiative.url }}" alt="link to initiative"><img src='{{ initiative.logo }}' alt='initiative logo' style="width:120px"></a></h3>
+      <h3><a href="{{ initiative.url }}" alt="link to initiative"><img src='{{ initiative.logo }}' alt='initiative logo' class="logo-i"></a></h3>
       <h5>{{ initiative.freq }}</h5>
       <p class="description">{{ initiative.description }}<br/>
       </p>

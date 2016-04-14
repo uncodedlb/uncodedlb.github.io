@@ -33,7 +33,6 @@ navigation: # Site Navigation Menu elements: names and links
     "Initiatives": "#initiatives"
     "Learn More": "#learn_more"
     "Get Involved": "#get_involved"
-#    "Barn Raising": "barn-raising"
   foot: # Footer Menu
     "Copyright &copy; 2015 Uncoded.org":
 
@@ -68,7 +67,10 @@ links:
 collections:
   pages:
     output: true
-    permalink: /:title/
+    permalink: /:categories/:slug/
+  posts:
+    output: true
+    permalink: /:categories/:short_year/:slug/
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus:
@@ -127,3 +129,4 @@ exclude:
   - .gitignore
   - .editorconfig
   - vendor # CI Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
+  - _hide

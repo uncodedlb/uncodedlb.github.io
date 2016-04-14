@@ -616,6 +616,14 @@ body {
   }
 }
 
+.logo-i {
+  max-width:120px;
+  .big {
+    max-width:200px;
+  }
+}
+
+
 .site-avatar {
   @include mobile {
   }
