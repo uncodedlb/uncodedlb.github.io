@@ -2,6 +2,7 @@
 layout: post
 title: Initiatives
 published: true
+permalink: /_hide/:slug/
 ---
 
 <!-- {{ page.title }} Section -->

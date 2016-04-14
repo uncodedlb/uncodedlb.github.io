@@ -9,6 +9,7 @@ playsinline: 0 # 0 - fullscreen (default), 1 - inline
 rel: 0         # 0 - don't show related, 1 - show related (default)
 showinfo: 0    # 0 - don't show info like title-uploader, 1 - show info (default)
 published: true
+permalink: /_hide/:slug/
 ---
 
 <div id="ytplayer" class="video1">

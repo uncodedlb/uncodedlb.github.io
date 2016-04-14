@@ -2,6 +2,7 @@
 layout: post
 title: Get Involved
 published: true
+permalink: /_hide/:slug/
 ---
 
 <section id="get_involved" class="content-section text-center">
