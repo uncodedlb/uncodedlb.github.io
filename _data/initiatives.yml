@@ -14,7 +14,7 @@
    more: <a href="http://www.codeandcoffeelb.org/" target="_blank">10am every Saturday</a>
    freq: Weekly
    type: uncoded
-   published: true
+   published: false
 
  - name: Hack Nights
    description: Like Code + Coffee, devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
@@ -32,7 +32,7 @@
    more: <a target='_blank' href='http://www.FPLongBeach.com/'>Next Event</a>
    freq: Monthly
    type: uncoded
-   published: true
+   published: false
 
  - name: WAPRO
    description: WAPRO, an acronym for Web & Application Professionals, meets monthly to showcase our cool tech projects, share best practices, network with each other, help newcomers, and uphold the values of open source software (F/OSS). We strive to do this in a professional, relaxed, respectful, and open venue for all people in our community.
