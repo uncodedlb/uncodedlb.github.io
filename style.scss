@@ -224,7 +224,7 @@ a:focus {
 }
 
 .intro .row > div,
-.download-section .container > div {
+.download-section .container-fluid > div {
   background-color: darken(rgba($panel1-bg-tint,.4),40%);
   border-radius:20px;
   padding:20px;
