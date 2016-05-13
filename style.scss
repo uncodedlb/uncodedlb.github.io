@@ -444,7 +444,115 @@ a:focus {
         }
     }
 }
+//------------------------------------------------------------------------------
+section#board {
+  background-color: transparent;
+}
+section#board::after {
+  content: "";
 
+  background: url(/img/pike-02.jpg) no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -4;}
+
+#board-divider {
+  width: 100%;
+  height: 200px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.about-us {
+    //margin: 0 25px;
+    margin-top: 200px;
+    clear:both;
+    background-color: transparentize(#000, .1);
+    padding: 40px 10% 40px;
+    width: 100%;
+
+    .person {
+        width: 30%;
+        padding: 0px 2% 50px 2%;
+        display: inline-block;
+        vertical-align: top;
+
+        .avatar-i {
+          max-width:200px;
+          .big {
+            max-width:350px;
+          }
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            height: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 18px;
+
+        }
+
+        h4 {
+            margin-bottom: 10px;
+            line-height: 20px;
+        }
+
+        .description {
+            font-size: 16px;
+            //min-height: 150px;
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .about-us {
+        //margin: 0 15px;
+
+        .person {
+            width: 44%;
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .about-us {
+        .person {
+            width: 100%;
+            padding: 0;
+            padding-bottom: 50px;
+
+             h3 {
+                margin-bottom: 0;
+            }
+
+            &.wwt {
+                h3 {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .description {
+                min-height: inherit;
+            }
+        }
+    }
+}
+
+
+//------------------------------------------------------------------------------
 @media(min-width:767px) {
     .content-section {
         clear:both;

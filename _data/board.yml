@@ -1,0 +1,109 @@
+- name: Lincoln Bauer
+  title:
+  intiative: ["NexTech", ""]
+  teaser: Entrepreneur and a Principal partner in Innovatory Ventures, an MVP incubator at WE Labs in Long Beach.
+  description: >
+    In addition to serving as Managing Partner of Innovatory Solutions (marketing, creative and business development services) and Managing Partner for Initiatives and Public Relations for WE Labs, Lincoln Bauer is an entrepreneur and a Principal partner in Innovatory Ventures, an MVP incubator at WE Labs in Long Beach. He has co‐founded two funded tech startups (ISCENE, RadarforLife) and is an experienced developer, business development professional and market communicator. His experiences include public relations, general marketing, organizational development, planning, business/organizational development, design and web development. He has worked in a communication role for companies and organizations such as MetLife, JohnstonWells Public Relations and the Open Media Foundation. He specializes in cause marketing and has an advanced education in communication, entrepreneurial studies and social/economic/political relations. He currently writes for the Long Beach Post and has written professionally in a variety of settings, including media relations as well as writing other persuasive texts for marketing and sales purposes. He trained in web development and graphic design. He possesses an undergraduate degree in international politics (honors media studies) from Aberystwyth, a graduate degree in political economy from the University of Sussex and graduate certificates in entrepreneurial studies, public relations and technical communication from the University of Colorado Denver.
+  avatar: /img/people/lbauer.jpg
+  social:
+    twitter:
+    instagram:
+    linkedin:
+    facebook:
+    github:
+    flickr:
+    pinterest:
+    stackoverflow:
+    website:
+  published: true
+- name: Adrian Diaz
+  title:
+  intiative: []
+  teaser:  NY transplant working to promote Uncoded brand, bridge entrepreneurs and investors, and bring subject matter experts to our city.
+  description: >
+    Adrian is a Brooklyn native that has called Long Beach home since 2014. He currently works with tech startups in Los Angeles as a consultant bridging the gaps in HR administration, ecosystem development (VC/angel funding, banking, attorneys, financial modeling, real estate, etc), and positioning companies for growth.
+    His involvement with UncodedLB is to promote the brand within and outside of Long Beach, serve as a bridge for local entrepreneurs and investors (In and out of LBC), and bring subject matter experts to our city to promote and accelerate the local tech ecosystem.
+    Adrian is also CEO and founder of barberApp. A local Long Beach tech startup.
+  avatar: /img/people/adiaz.jpg
+  social:
+    twitter: AdrianD_LA
+    instagram: kingadrian43
+    linkedin: adrian-diaz-b2768110
+    facebook:
+    github:
+    flickr:
+    pinterest:
+    stackoverflow:
+    website:
+  published: true
+- name: Michael Evans, CPA
+  title: Treasurer
+  intiative: ["Barnraising", "http://www.uncoded.org/barn-raising"]
+  teaser: I am and accountant with a passion for technology. A general tinkerer, and an occasional coder.
+  description: >
+    My name is Michael Evans. I am and accountant with a passion for technology. A general tinkerer, and an occasional coder. I studied Computer Information Systems in College at California State University, Los Angeles. I have been breaking computers since I was 3 years old!
+  avatar: /img/people/mevans.jpg
+  social:
+    twitter:
+    instagram:
+    linkedin:
+    facebook:
+    github:
+    flickr:
+    pinterest:
+    stackoverflow:
+    website:
+  published: true
+- name: Hector Soto
+  title: Secretary
+  intiative: ["Techworking", "", "Hack Nights", ""]
+  teaser: SD transplant, CISSP Specialist in Cybersecurity, and USMC Veteran. Leads initiatives to connect Tech in Long Beach area.
+  description: >
+    Hector A. Soto, CISSP, has over seven years of cybersecurity experience and nine years of progressive leadership experience.  Hector has specialized training in Incident Response, Incident Handling, Network and Computer Forensics, Malware Analysis, Network Analysis, Penetration Testing, Vulnerability Assessments, and in Implementing an Information Assurance Program.  He is currently providing IT Security Consulting support to the nation’s busiest port and the nation’s first port Security Operations Center.
+    Hector joined Uncoded Board of Directors on February 17, 2016 and is currently serving as the interim Secretary as well as a Co-Organizer for Techworking and Hack Nights.   As many of the members of Uncoded, Hector shares a passion for Technology and Community building.
+  avatar: /img/people/hsoto.jpg
+  social:
+    twitter:
+    instagram:
+    linkedin: hasoto
+    facebook:
+    github:
+    flickr:
+    pinterest:
+    stackoverflow:
+    website:
+  published: true
+- name: Mike Stewart
+  title: President
+  intiative: ["WAPRO", "http://www.waprolb.org", "Barnraising", "http://www.uncoded.org/barn-raising"]
+  teaser: Entrepreneur, nerd, musician, craft-beer connoisseur with strong beliefs in the good of people and the power of ideas and community. Free software advocate.
+  description:
+  avatar: /img/people/mstewart.jpg
+  social:
+    twitter: mdrmike_
+    instagram: mdrmike
+    linkedin: mdrmike
+    facebook: mdrmike
+    github: mdrmike
+    flickr:
+    pinterest:
+    stackoverflow:
+    website: http://www.mediadoneright.com/blog
+  published: true
+- name:
+  title:
+  intiative: []
+  teaser:
+  description:
+  avatar: /img/people/
+  social:
+    twitter:
+    instagram:
+    linkedin:
+    facebook:
+    github:
+    flickr:
+    pinterest:
+    stackoverflow:
+    website:
+  published: false
