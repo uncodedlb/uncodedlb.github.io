@@ -10,7 +10,7 @@
 
 {% if site.bootstrap.js %}
 <!-- Bootstrap Core JavaScript -->
-<script src="{{ site.bootstrap.js }}"></script>
+<script src="{{ site.bootstrap.js.url }}" integrity="{{ site.bootstrap.js.integrity }}" crossorigin="{{ site.bootstrap.js.crossorigin }}"></script>
 {% endif %}
 
 {% if site.lodash.js %}

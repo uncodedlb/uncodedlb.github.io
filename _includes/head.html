@@ -8,7 +8,7 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} – {{ site.description }}</title>
     <!-- Bootstrap Core CSS -->
     <!--link href="css/bootstrap.min.css" rel="stylesheet"-->
-    <link href="{% if site.bootstrap.css %}{{ site.bootstrap.css }}{% endif %}" rel="stylesheet">
+    {% if site.bootstrap.css %}<link href="{{ site.bootstrap.css.url }}" integrity="{{ site.bootstrap.css.integrity }}" crossorigin="{{ site.bootstrap.css.crossorigin }}" rel="stylesheet">{% endif %}
 
     <!-- Custom Fonts -->
     <link href="{% if site.fontawesome %}{{ site.baseurl }}{{ site.fontawesome }}{% endif %}" rel="stylesheet" type="text/css">

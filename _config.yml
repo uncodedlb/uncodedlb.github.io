@@ -99,8 +99,14 @@ jquery:
 lodash:
   js: "/js/lodash.js"
 bootstrap:
-  css: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"  # "css/bootstrap.min.css"
-  js: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"     # "js/bootstrap.min.js"
+  css:
+    url: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  # "css/bootstrap.min.css"
+    integrity: "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin: "anonymous"
+  js:
+    url: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"     # "js/bootstrap.min.js"
+    integrity: "sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin: "anonymous"
 googlefonts: "http://fonts.googleapis.com/css?family=Montserrat:400,700|Lora:400,700,400italic,700italic"
 googlemaps: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" # - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
 
