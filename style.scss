@@ -55,6 +55,10 @@ em {
   color: $primary;
 }
 
+strong {
+  font-weight: bold;
+}
+
 ul,
 ol {
     margin: 0 0 35px;
@@ -73,6 +77,10 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+section,footer {
+  background-color: #000;
 }
 
 @media(min-width:768px) {
@@ -531,6 +539,7 @@ body {
 
 
 #vision {
+    width: 100%;
     .row {
         padding-top: 20px;
     }
@@ -547,7 +556,7 @@ body {
 }
 
 #learn_more {
-  background-color:rgba(darken($primary,50%),.9);
+  background-color:rgba(darken($primary,50%),1);
   //height: 100%;
   min-height: 100%;
   .banner-section {
