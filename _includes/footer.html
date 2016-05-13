@@ -1,12 +1,12 @@
 {% if site.links or site.foot %}
 <!-- Footer -->
 <footer>
-		<div class="container text-center">
+		<div class="container-fluid text-center">
 			{% include o_svg-icons.html %}
 			<p>
 				{% for link in site.navigation.foot %}
 					{% if link[1] %}
-				  	<a href="{{ link[1] }}">{{ link[0] }}</a>  
+				  	<a href="{{ link[1] }}">{{ link[0] }}</a>
 					{% else %}
 						{{ link[0] }}
 					{% endif %}
