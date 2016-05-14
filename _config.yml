@@ -31,7 +31,7 @@ navigation: # Site Navigation Menu elements: names and links
   main: # Main Menu  ( "LABEL": "URL" )
     "Vision": "#vision"
     "Initiatives": "#initiatives"
-    "About": "#board"
+    "About": "#about-us"
     "Learn More": "#learn_more"
     "Get Involved": "#get_involved"
   foot: # Footer Menu

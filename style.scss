@@ -445,10 +445,10 @@ a:focus {
     }
 }
 //------------------------------------------------------------------------------
-section#board {
+section#about-us {
   background-color: transparent;
 }
-section#board::after {
+section#about-us::after {
   content: "";
 
   background: url(/img/pike-02.jpg) no-repeat top center scroll;
@@ -469,7 +469,7 @@ section#board::after {
   margin-top: 0;
   margin-bottom: 50px;
 }
-.about-us {
+.us {
     //margin: 0 25px;
     margin-top: 200px;
     clear:both;
@@ -516,7 +516,7 @@ section#board::after {
 }
 
 @media(max-width:767px) {
-    .about-us {
+    .us {
         //margin: 0 15px;
 
         .person {
@@ -528,7 +528,7 @@ section#board::after {
 }
 
 @media(max-width:550px) {
-    .about-us {
+    .us {
         .person {
             width: 100%;
             padding: 0;
