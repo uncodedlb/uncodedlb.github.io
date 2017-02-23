@@ -27,7 +27,7 @@
   avatar: /img/people/adiaz.jpg
   social:
     twitter: AdrianD_LA
-    instagram: 
+    instagram:
     linkedin: adrian-diaz-b2768110
     facebook:
     github:
@@ -35,7 +35,7 @@
     pinterest:
     stackoverflow:
     website:
-  published: true
+  published: false
 - name: Michael Evans, CPA
   title: Treasurer
   intiative: ["Barnraising", "http://www.uncoded.org/barn-raising"]

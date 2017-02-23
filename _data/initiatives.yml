@@ -5,7 +5,7 @@
    more: <a href="http://www.meetup.com/Uncoded/events/229797242/" target="_blank">RSVP NOW!</a>
    freq: Annually
    type: uncoded
-   published: true
+   published: false
 
  - name: Code && Coffee
    description: Code + Coffee is a weekly event bringing together programmers of all ages, skills and experiences in a casual environment to share, collaborate, and hack together. We gather at 10am every Saturday at <a href="http://www.critiqueit.com/">CritiqueIt</a> in downtown at 235 E. Broadway, Suite 506. Bring a laptop and an interest in programming.
@@ -17,10 +17,10 @@
    published: false
 
  - name: Hack Nights
-   description: Like Code + Coffee, devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
+   description: A weekly event, developers of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
    url: http://www.meetup.com/uncoded/
    logo: /img/logo-hacknights-wh.png
-   more: <a href="http://www.meetup.com/uncoded/" target="_blank">Tuesdays @ WELabs</a>
+   more: <a href="http://www.meetup.com/uncoded/" target="_blank">Wednesday @WorkEvolutionLB</a>
    freq: Weekly
    type: uncoded
    published: true
@@ -47,7 +47,7 @@
    description: Join Uncoded and Long Beach's tech community for an evening of networking and conversation, focused on, well, tech. This networking is open to any and all working in, tinkering in or interested in technology in Long Beach and beyond.
    url: /#initiatives
    logo: /img/logo-techworking-wh.png
-   more: <a href="http://www.meetup.com/uncoded/" target="_blank">Last Wednesday Every Month</a>
+   more: <a href="http://www.meetup.com/uncoded/" target="_blank">First Thursdays Every Month</a>
    freq: Monthly
    type: uncoded
    published: true
@@ -77,4 +77,4 @@
    more: <a href="http://wonderwomentech.com/" target="_blank">July 15th - 17th, 2016 at the Long Beach Convention Center</a>
    freq: Annual
    type: partner
-   published: true
+   published: false
