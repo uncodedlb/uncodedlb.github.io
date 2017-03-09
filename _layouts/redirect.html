@@ -4,15 +4,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  {% include o_analytics.html %}
+  {% include o_favicon.html %}
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} – {{ site.description }}</title>
   <meta charset="utf-8">
-  <title>Redirecting...</title>
-  <link rel="canonical" href="{{ page.redir_to }}"/>
-  <meta http-equiv="refresh" content="0;url={{ page.redir_to }}">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{{ site.baseurl }}{{ site.styling }}" rel="stylesheet">
+  <link rel="canonical" href="{{ page.redirect }}"/>
+  <meta http-equiv="refresh" content="0;url={{ page.redirect }}">
 </head>
 <body>
   <h1>Redirecting...</h1>
-  This page has moved permanently.  <a href="{{ page.redir_to }}">Click here if you are not redirected.<a>
-
-  <script>location='{{ page.redir_to }}'</script>
+  <p>This page has moved permanently.  <a href="{{ page.redirect }}">Click here if you are not redirected.<a></p>
+  <script>location='{{ page.redirect }}'</script>
 </body>
 </html>

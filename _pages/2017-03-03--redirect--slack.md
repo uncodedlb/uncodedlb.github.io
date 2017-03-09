@@ -1,7 +1,7 @@
 ---
 layout: redirect
 permalink: /slack
-redir_to: 'https://uncoded-slack-inviter.herokuapp.com/'
-title: Sign-up for uncodedlb.slack.com
+redirect: 'https://uncoded-slack-inviter.herokuapp.com/'
+title: "Redirecting to uncodedlb.slack.com sign-up..."
 sitemap: false
 ---
