@@ -90,6 +90,23 @@
     stackoverflow:
     website: http://www.mediadoneright.com/blog
   published: true
+- name: Arthur Reeder
+  title:
+  intiative: ["Hack Night", "https://hacknightlbc.github.io/"]
+  teaser: 
+  description:
+  avatar: /img/people/
+  social:
+    twitter: arthursucks
+    instagram:
+    linkedin:
+    facebook:
+    github: arthursucks
+    flickr:
+    pinterest:
+    stackoverflow:
+    website: https://n0pe.org
+  published: false
 - name:
   title:
   intiative: []
