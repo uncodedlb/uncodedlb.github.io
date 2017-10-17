@@ -113,7 +113,6 @@
   teaser: 
   description: >
     Jacob is a poet, tech analyst, and artist. While always looking for new fields and mediums to learn, he finds teaching just as satisfying. With Uncoded, Jacob intends to bring workshops in science, tech, and design to the curious of Long Beach.
-    
     You can read his blog at ismimagined.wordpress.com and follow him on instagram @jcbthnflrs.
   avatar: /img/people/jflores.jpg
   social:
@@ -125,7 +124,7 @@
     flickr:
     pinterest:
     stackoverflow:
-    website: 
+    website: https://ismimagined.wordpress.com/
   published: true
 - name:
   title:
