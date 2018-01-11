@@ -70,6 +70,13 @@
    type: uncoded
    published: true
 
+ - name: Learning Resources
+   description: Here are resources for you to start learning to code, design, or start a business
+   url: learning-resources
+   logo: /img/learning.png
+   type: uncoded
+   published: true
+
  - name: Wonder Women Technology Conference
    description: Our goal is to create a conference franchise, anchored in Long Beach, accessible to everyone, remaining non-exclusive and that will provide stellar programming, content, and speakers dedicated to highlighting, celebrating and educating women (and men) in Tech, STEAM and innovation.
    url: http://wonderwomentech.com/
