@@ -71,7 +71,7 @@
    published: true
 
  - name: Learning Resources
-   description: Learn to code, design, or start a business
+   description: If you want to get involved in the tech community but don't know where to start, give some of the links in here a try! You'll find resources on coding, design, and business in here, with content for folks at any stage of the learning journey.
    url: learning-resources
    logo: /img/learning.png
    more: <a href="learning-resources">Start Learning</a>
