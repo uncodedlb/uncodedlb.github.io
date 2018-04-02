@@ -71,7 +71,7 @@
    published: true
 
  - name: Learning Resources
-   description: Here are resources for you to start learning to code, design, or start a business
+   description: Learn to code, design, or start a business
    url: learning-resources
    logo: /img/learning.png
    more: <a href="learning-resources">Start Learning</a>
