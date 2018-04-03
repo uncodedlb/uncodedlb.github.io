@@ -20,7 +20,7 @@
    description: A weekly event, developers of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
    url: http://www.meetup.com/uncoded/
    logo: /img/logo-hacknights-wh.png
-   more: <a href="http://www.meetup.com/uncoded/" target="_blank">Wednesday @WorkEvolutionLB</a>
+   more: <a href="http://www.meetup.com/uncoded/" target="_blank">Tuesday @RebelBite</a>
    freq: Weekly
    type: uncoded
    published: true
@@ -67,6 +67,15 @@
    logo: /img/logo-next-wh.png
    more: <a href="http://www.meetup.com/uncoded/" target="_blank">Organizing Now</a>
    freq: Sporadic
+   type: uncoded
+   published: true
+
+ - name: Learning Resources
+   description: If you want to get involved in the tech community but don't know where to start, give some of the links in here a try! You'll find resources on coding, design, and business in here, with content for folks at any stage of the learning journey.
+   url: learning-resources
+   logo: /img/learning.png
+   more: <a href="learning-resources">Start Learning</a>
+   freq: Ongoing
    type: uncoded
    published: true
 
