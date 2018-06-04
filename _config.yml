@@ -111,7 +111,7 @@ bootstrap:
     integrity: "sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
     crossorigin: "anonymous"
 googlefonts: "http://fonts.googleapis.com/css?family=Montserrat:400,700|Lora:400,700,400italic,700italic"
-googlemaps: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" # - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
+#googlemaps: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" # - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
 
 
 # markdown: redcarpet  # removed due to depreciation to kramdown 5/1/2016
