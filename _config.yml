@@ -35,7 +35,7 @@ navigation: # Site Navigation Menu elements: names and links
     "Learn More": "#learn_more"
     "Get Involved": "#get_involved"
   foot: # Footer Menu
-    "Copyright &copy; 2015 Uncoded.org":
+    "Copyright &copy; 2015-2018 Uncoded.org":
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/12898756
