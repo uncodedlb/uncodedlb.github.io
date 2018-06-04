@@ -1,7 +1,13 @@
 {% if site.links or site.foot %}
+{% for link in site.navigation.main %}
+  {% if link[0] == "Donate" %}
+    <a id="donate" href="{{ link[1] }}"></a>
+    {% endif %}
+{% endfor %}
 <!-- Footer -->
 <footer>
 		<div class="container-fluid text-center">
+      <h3>Connect with us below</h3>
 			{% include o_svg-icons.html %}
 			<p>
 				{% for link in site.navigation.foot %}

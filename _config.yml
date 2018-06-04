@@ -34,6 +34,7 @@ navigation: # Site Navigation Menu elements: names and links
     "About": "#about-us"
     "Learn More": "#learn_more"
     "Get Involved": "#get_involved"
+    "Donate": "#donate"
   foot: # Footer Menu
     "Copyright &copy; 2015-2018 Uncoded.org":
 
@@ -48,6 +49,7 @@ timezone: America/Los_Angeles
 # Includes an icon in the footer for each username you enter
 links:
   dribbble:
+  donate: squareup.com/store/uncoded
   email: "uncodedlb@gmail.com"
   facebook: "uncodedlb"
   flickr:
