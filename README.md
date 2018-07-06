@@ -9,10 +9,20 @@ The website is built using [Jekyll](http://jekyllrb.com/).  Github hosts static 
 
 Getting involved is easy.  You don't even NEED Jekyll installed locally, but it helps.  Changes and pull requests are encouraged.  Want to fix a typo.  Add some info?  Add a page, or more?  Go for it.  
 
+## Setup Jekyll
+
+Two easy options to get going with Jekyll. 
+
+*  Instructions to install [Jekyll](https://jekyllrb.com/docs/quickstart/) 
+*  If you have [Docker](https://www.docker.com/community-edition), here's a couple options.   
+    *   If you already have Docker  installed, this simple one line command will build and host jekyll [(bretfisher/jekyll-serve)](https://github.com/bretfisher/jekyll-serve).:  
+    `docker run -p 4000:4000 -v "$PWD:/site" bretfisher/jekyll-serve`
+    *   Or a more robust solution [Docker + Jekyll](https://github.com/envygeeks/jekyll-docker).
+
 ### Here's How
 
 1. `Fork` the repository: [How to Fork](https://help.github.com/articles/fork-a-repo/).
-1. Make changes.
+1. Make changes. 
 1. Optionally, enable Travis for yourself on this repo: `https://travis-ci.org/profile/**username**`.  [Read more](http://jekyllrb.com/docs/continuous-integration/)
 1.  Create a `Pull Request` to share:  [How to create a Pull Request](https://help.github.com/articles/using-pull-requests/)
 
