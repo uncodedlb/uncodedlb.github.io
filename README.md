@@ -1,15 +1,5 @@
 # Uncoded.org website source code
 
-## Deployment Info
-We utilize [Travis CI](https://travis-ci.org/profile/uncodedlb) to for automated testing before deployment.
-
-### Current Status
-
-[![Build Status](https://travis-ci.org/uncodedlb/uncodedlb.github.io.svg?branch=master)](https://travis-ci.org/uncodedlb/uncodedlb.github.io)
-
-This information (and link) is based on the last commit to the repository.  A failed status will not be published.
-
-
 ## About
 The website is built using [Jekyll](http://jekyllrb.com/).  Github hosts static HTML and Jekyll based websites for free.  Github uses a default naming scheme for repositories, and as a result our site can be viewed at  [http://uncodedlb.github.io/](http://uncodedlb.github.io/).  In addition, we have the **Uncoded.org** domain that Github allows us to utilize instead by adding a [CNAME file and configuring our DNS](https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/).  Therefore our website is accessed at:  [http://www.uncoded.org](http://www.uncoded.org/)
 
