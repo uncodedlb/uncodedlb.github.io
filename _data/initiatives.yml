@@ -87,3 +87,16 @@
    freq: Annual
    type: partner
    published: false
+
+ - name: DC562
+   description: >-
+     DC562 is *the* premier Westside/Southbay hacker community, supporting
+     regular meetups and events in a talented and growth-focused community.
+     Interests are diverse within the hacker spectrum with a heavy infosec
+     focus. Member participation in events is heavily encouraged and enabled!
+   url: https://dc562.org
+   logo: /img/logo-dc562.png
+   more: <a href="https://dc562.org/chat.html" target="_blank">Come join us on IRC!</a>
+   freq: Monthly
+   type: partner
+   published: true
