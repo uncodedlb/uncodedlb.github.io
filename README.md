@@ -1,37 +1,53 @@
 # Uncoded.org website source code
 
 ## About
-The website is built using [Jekyll](http://jekyllrb.com/).  Github hosts static HTML and Jekyll based websites for free.  Github uses a default naming scheme for repositories, and as a result our site can be viewed at  [http://uncodedlb.github.io/](http://uncodedlb.github.io/).  In addition, we have the **Uncoded.org** domain that Github allows us to utilize instead by adding a [CNAME file and configuring our DNS](https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/).  Therefore our website is accessed at:  [http://www.uncoded.org](http://www.uncoded.org/)
+
+This is the repository for Uncoded.org website, and is built using [Jekyll](http://jekyllrb.com/).  
+
+Github hosts Jekyll and static HTML websites for free. Our website can be viewed at [www.uncoded.org](http://www.uncoded.org) which, due to [CNAME](https://github.com/uncodedlb/uncodedlb.github.io/blob/master/CNAME) settings file, directs to this repository website [http://uncodedlb.github.io](http://uncodedlb.github.io/).
 
 
+## Contribute Changes
 
-## Get Involved
+Helping is easy.  You don't even _need_ Jekyll installed locally, but it helps.  Changes and pull requests are encouraged.  Want to fix a typo, link, or add some missing info?  Add a page, or more?  Please, go for it!  You just need to fork the repo and make changes.
 
-Getting involved is easy.  You don't even NEED Jekyll installed locally, but it helps.  Changes and pull requests are encouraged.  Want to fix a typo.  Add some info?  Add a page, or more?  Go for it.  
+Any Github user can [Create an Issue](https://github.com/uncodedlb/uncodedlb.github.io/issues/new) or [Pull Request](https://help.github.com/articles/creating-a-pull-request/).  In addition, we'll also allow anyone in our community to [join our team for direct access](https://github.com/uncodedlb/uncodedlb.github.io/issues/new).  We do ask that you adhere to [Uncoded  Policies](https://github.com/uncodedlb/uncoded-policies).
 
-## Setup Jekyll
 
-Two easy options to get going with Jekyll. 
+### Quick: Helping with Docker
 
-*  Instructions to install [Jekyll](https://jekyllrb.com/docs/quickstart/) 
-*  If you have [Docker](https://www.docker.com/community-edition), here's a couple options.   
-    *   If you already have Docker  installed, this simple one line command will build and host jekyll [(bretfisher/jekyll-serve)](https://github.com/bretfisher/jekyll-serve).:  
-    `docker run -p 4000:4000 -v "$PWD:/site" bretfisher/jekyll-serve`
-    *   Or a more robust solution [Docker + Jekyll](https://github.com/envygeeks/jekyll-docker).
+In the root of your local repository, run:  
 
-### Here's How
+    docker run -p 4000:4000 -v "$PWD:/site" bretfisher/jekyll-serve
 
-1. `Fork` the repository: [How to Fork](https://help.github.com/articles/fork-a-repo/).
-1. Make changes. 
-1. Optionally, enable Travis for yourself on this repo: `https://travis-ci.org/profile/**username**`.  [Read more](http://jekyllrb.com/docs/continuous-integration/)
+**Note:** To view, visit: [http://localhost:4000](http://localhost:4000)  
+**Explanation:** This simple one line command will use Docker to build and host Jekyll using the Docker project [jekyll-serve](https://github.com/bretfisher/jekyll-serve).
+
+
+## General Workflow
+
+1.  [Fork the repository](https://help.github.com/articles/fork-a-repo/)
+1.  Make changes following [Github Flow](https://help.github.com/articles/github-flow/)
+1.  Optionally, enable Travis for yourself on this repo: [https://travis-ci.org/profile/**username** (read more)](http://jekyllrb.com/docs/continuous-integration/)
 1.  Create a `Pull Request` to share:  [How to create a Pull Request](https://help.github.com/articles/using-pull-requests/)
 
-#### Workflow Notes
+
+## Prerequisites
+
+To help, you'll need to setup Github. A text editor (or IDE), and either Docker or Jekyll installed locally also makes it easier than working on Github directly.
+
+1.  [Create a Github account](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration).
+1.  [Fork the repository](https://help.github.com/articles/fork-a-repo/) & Make changes to this repo.
+1.  Optional, for local development:
+    1. [Setup Github SSH Access](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+        -   [Video Tutorials](https://www.youtube.com/watch?v=noZnOSpcjYY&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-): Using Github
+        -   [Video Tutorials](https://www.youtube.com/watch?v=QfmYUiXMs2E&list=PLg7s6cbtAD168bAd2P4Z0bEUxYMUcyoq1): Github and IDE's (IntelliJ IDE's, Atom, Visual Studio, Github Desktop, Eclipse, Xcode)
+    1.  Follow [Github Flow](https://help.github.com/articles/github-flow/) (Branch, Make Changes, Pull Request)
+    1.  Option A: Helping with Docker: [Install Docker](https://docs.docker.com/install/)
+    1.  Option B: Helping with Jekyll: [Install Jekyll](https://jekyllrb.com/docs/quickstart/)
+
+
+#### Notes
 
 1. If you're working on Github, you'll likely need to merge `master` with `gh-pages` [Read more](https://help.github.com/categories/github-pages-basics/) about Github pages. **Note:** Again, we're using Jekyll.  And your setup is likely for a user not an organization.
 1. Optionally, view your github fork locally or on Github (`gh-pages` branch).  To find this, click your repo settings and look for the URL where it's published:  `https://github.com/**YOURUSERNAME**/uncodedlb.github.io/settings`
-
-
- ### Who Can Get Invovled?
-
- Anyone can create a Pull Request.  In addition, we'll also allow anyone in our community to join our team for direct access.  We do ask that you adhere to [Uncoded  Policies](https://github.com/uncodedlb/uncoded-policies).
