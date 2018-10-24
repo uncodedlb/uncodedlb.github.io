@@ -15,7 +15,7 @@
     pinterest:
     stackoverflow:
     website:
-  published: true
+  published: false
 - name: Adrian Diaz
   title:
   intiative: []
@@ -92,8 +92,9 @@
   published: true
 - name: Arthur Reeder
   title:
-  intiative: ["Hack Night", "https://hacknightlbc.github.io/"]
-  teaser: 
+  intiative: ["Hack Night", "https://www.hacknightlbc.org"]
+  teaser: >
+    Linux nerd. Weekly host of Hack Night in #LBC. Open Source content creator.
   description:
   avatar: /img/people/me-again.jpg
   social:
@@ -116,11 +117,11 @@
     You can read his blog at ismimagined.wordpress.com and follow him on instagram @jcbthnflrs.
   avatar: /img/people/jflores.jpg
   social:
-    twitter: 
+    twitter:
     instagram: jcbthnflrs
     linkedin:
     facebook:
-    github: 
+    github:
     flickr:
     pinterest:
     stackoverflow:
