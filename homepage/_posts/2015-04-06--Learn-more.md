@@ -30,8 +30,8 @@ permalink: /_hide/:slug/
           <dt><a href="https://www.google.com/calendar/ical/tkk7568vjd3tsohbsbeof82c9g%40group.calendar.google.com/public/basic.ics" rel="nofollow" target="_Blank">
           <i class="fa fa-calendar fa-2x"></i> Uncoded Public Calendar (iCal)</a></dt>
           <dd>Add our iCal feed to your calendar to stay up-to-date on our initiatives.</dd>
-          <dt><a href="http://j.mp/uncodedlb-living-agenda" rel="nofollow" target="_Blank"><i class="fa fa-rocket fa-2x"></i> Uncoded Living Agenda</a></dt>
-          <dd>Add our Agenda to your Google Drive.</dd>
+          <dt><a href="https://trello.com/b/oejA3W2a/" rel="nofollow" target="_Blank"><i class="fa fa-rocket fa-2x"></i> Uncoded Board Agenda</a></dt>
+          <dd>Access during our board meetings or review our past agenda.</dd>
           <dt><a href="http://j.mp/uncodedlb-share" rel="nofollow" target="_Blank"><i class="fa fa-folder fa-2x"></i> Uncoded Shared Folder</a></dt>
           <dd>Add our Shared Folder to your Google Drive.</dd>
         </dl>
