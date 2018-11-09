@@ -22,7 +22,7 @@ permalink: /_hide/:slug/
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <h2>{{ page.title }}</h2>
-        <p>We encourage you to learn about our ideas. If you would like to help us build a vibrant open tech community that can grow and organize organically, we welcome your input and involvement. If you have questions or suggestions please add a comment in the document.</p>
+        <p>We encourage you to learn about our ideas. If you would like to help us build a vibrant open tech community that can grow and organize organically, we welcome your input and involvement. If you have questions or suggestions please join us in slack or an upcoming meetup.</p>
         <dl>
           <dt><a href="https://www.meetup.com/Uncoded/events/calendar/" rel="nofollow" target="_Blank">
           <i class="fa fa-calendar fa-2x"></i> Uncoded Public Calendar (meetup.com)</a></dt>
