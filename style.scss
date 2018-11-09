@@ -74,7 +74,7 @@ ol {
     list-style: disc;
     list-style-position: inside;
     text-align: center;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 code {
@@ -227,11 +227,12 @@ a:focus {
 }
 .intro::after {
   content: "";
-  background: url($panel1-bg) no-repeat top center scroll;
+  background: url($panel1-bg) no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-size: auto 100%;
   top: 0;
   left: 0;
   bottom: 0;
@@ -244,14 +245,19 @@ a:focus {
     display: table-cell;
     vertical-align: middle;
 }
-
+.fa-terminal {
+  background: rgba(0,0,0,.6);
+  padding: 0 .15em .1em;
+  border-radius: .1em;
+}
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    text-shadow: 0.03em 0.03em 0.12em rgba(0,0,0,.8);
 }
 
 .intro .row > div,
 .download-section .container-fluid > div {
-  background-color: darken(rgba($panel1-bg-tint,.4),40%);
+  //background-color: darken(rgba($panel1-bg-tint,.4),40%);
   border-radius:20px;
   padding:20px;
 }
@@ -259,6 +265,7 @@ a:focus {
 .intro .intro-body {
     .intro-text {
         font-size: 18px;
+        text-shadow: 0.02em 0.02em 0.01em rgba(0,0,0,1), 0.25em 0.25em 0.2em rgba(0,0,0,1);
     }
 
     .call-to-action-text {
