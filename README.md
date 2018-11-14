@@ -1,27 +1,34 @@
 # Uncoded.org website source code
 
-## About
+### tl;dr
 
-This is the repository for Uncoded.org website, and is built using [Jekyll](http://jekyllrb.com/).  
-
-Github hosts Jekyll and static HTML websites for free. Our website can be viewed at [www.uncoded.org](http://www.uncoded.org) which, due to [CNAME](https://github.com/uncodedlb/uncodedlb.github.io/blob/master/CNAME) settings file, directs to this repository website [http://uncodedlb.github.io](http://uncodedlb.github.io/).
-
-
-## Contribute Changes
-
-Helping is easy.  You don't even _need_ Jekyll installed locally, but it helps.  Changes and pull requests are encouraged.  Want to fix a typo, link, or add some missing info?  Add a page, or more?  Please, go for it!  You just need to fork the repo and make changes.
-
-Any Github user can [Create an Issue](https://github.com/uncodedlb/uncodedlb.github.io/issues/new) or [Pull Request](https://help.github.com/articles/creating-a-pull-request/).  In addition, we'll also allow anyone in our community to [join our team for direct access](https://github.com/uncodedlb/uncodedlb.github.io/issues/new).  We do ask that you adhere to [Uncoded  Policies](https://github.com/uncodedlb/uncoded-policies).
-
-
-### Quick: Helping with Docker
-
-In the root of your local repository, run:  
+If you have `Git` & `Docker`, clone a copy of the repo, then run:  
 
     docker run -p 4000:4000 -v "$PWD:/site" bretfisher/jekyll-serve
 
-**Note:** To view, visit: [http://localhost:4000](http://localhost:4000)  
-**Explanation:** This simple one line command will use Docker to build and host Jekyll using the Docker project [jekyll-serve](https://github.com/bretfisher/jekyll-serve).
+
+##### Explanation
+
+*  This simple one line command will use Docker to build and host Jekyll using the Docker project [jekyll-serve](https://github.com/bretfisher/jekyll-serve)  
+*  Edit code  
+*  To view, visit: [http://localhost:4000](http://localhost:4000)  
+*  Repeat  
+
+---  
+
+## About
+
+[This is the repository](https://github.com/uncodedlb/uncodedlb.github.io) for [Uncoded.org](www.uncoded.org) and is built using [Jekyll](http://jekyllrb.com/).
+
+[Github hosts Jekyll](https://help.github.com/articles/what-is-github-pages/) and static HTML websites for free. Our website can be viewed at [www.uncoded.org](http://www.uncoded.org) which, due to [CNAME](https://github.com/uncodedlb/uncodedlb.github.io/blob/master/CNAME) settings file, directs to this repository website [http://uncodedlb.github.io](http://uncodedlb.github.io/).
+
+
+## Contribute
+
+Helping is easy.  You don't even _need_ [Jekyll](http://jekyllrb.com/), but it helps.  Changes and [pull requests](https://github.com/uncodedlb/uncodedlb.github.io/pulls) are encouraged.  Want to fix a typo, link, or add some missing info?  Add a page, or more?  Please, go for it!  You just need to fork the repo and make changes.
+
+Any Github user can [Create an Issue](https://github.com/uncodedlb/uncodedlb.github.io/issues/new) or [Pull Request](https://help.github.com/articles/creating-a-pull-request/).  In addition, we'll also allow anyone in our community to [join our team for direct access](https://github.com/uncodedlb/uncodedlb.github.io/issues/new).  We do ask that you adhere to [Uncoded  Policies](https://github.com/uncodedlb/uncoded-policies).
+
 
 
 ## General Workflow
