@@ -14,6 +14,9 @@ If you have `Git` & `Docker`, clone a copy of the repo, then run:
 *  To view, visit: [http://localhost:4000](http://localhost:4000)  
 *  Repeat  
 
+
+![divider](http://78.media.tumblr.com/6a0993ff440e03c7e5bbd0f3eac343c9/tumblr_nkbuy6Clg41twrbr9o1_r1_540.gif)  
+
 ---  
 
 ## About
