@@ -75,7 +75,7 @@
   url: adaept
   logo: /img/logo-adaept-wh.png
   more: <a href="adaept">Start Learning</a>
-  freq: Ongoing
+  freq:
   type: uncoded
   published: true
 
