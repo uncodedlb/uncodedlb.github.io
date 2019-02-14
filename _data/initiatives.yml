@@ -1,102 +1,102 @@
- - name: FishHackathon
-   description: Calling all coders to the 3rd annual Fishackathon, April 22-24.  It’s gonna be off the hook! Registration is now open!
-   url: http://www.fishackathon.co
-   logo: /img/logo-fishackathon-wh.png
-   more: <a href="http://www.meetup.com/Uncoded/events/229797242/" target="_blank">RSVP NOW!</a>
-   freq: Annually
-   type: uncoded
-   published: false
+- name: FishHackathon
+  description: Calling all coders to the 3rd annual Fishackathon, April 22-24.  It’s gonna be off the hook! Registration is now open!
+  url: http://www.fishackathon.co
+  logo: /img/logo-fishackathon-wh.png
+  more: <a href="http://www.meetup.com/Uncoded/events/229797242/" target="_blank">RSVP NOW!</a>
+  freq: Annually
+  type: uncoded
+  published: false
 
- - name: Code && Coffee
-   description: Code + Coffee is a weekly event bringing together programmers of all ages, skills and experiences in a casual environment to share, collaborate, and hack together. We gather at 10am every Saturday at <a href="http://www.critiqueit.com/">CritiqueIt</a> in downtown at 235 E. Broadway, Suite 506. Bring a laptop and an interest in programming.
-   url: http://www.codeandcoffeelb.org
-   logo: /img/logo-codeandcoffee.png
-   more: <a href="http://www.codeandcoffeelb.org/" target="_blank">10am every Saturday</a>
-   freq: Weekly
-   type: uncoded
-   published: false
+- name: Code && Coffee
+  description: Code + Coffee is a weekly event bringing together programmers of all ages, skills and experiences in a casual environment to share, collaborate, and hack together. We gather at 10am every Saturday at <a href="http://www.critiqueit.com/">CritiqueIt</a> in downtown at 235 E. Broadway, Suite 506. Bring a laptop and an interest in programming.
+  url: http://www.codeandcoffeelb.org
+  logo: /img/logo-codeandcoffee.png
+  more: <a href="http://www.codeandcoffeelb.org/" target="_blank">10am every Saturday</a>
+  freq: Weekly
+  type: uncoded
+  published: false
 
- - name: Hack Nights
-   description: A weekly event, developers of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
-   url: http://www.meetup.com/uncoded/
-   logo: /img/logo-hacknights-wh.png
-   more: <a href="http://www.meetup.com/uncoded/" target="_blank">Tuesday @RebelBite</a>
-   freq: Weekly
-   type: uncoded
-   published: true
+- name: Hack Nights
+  description: A weekly event, developers of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
+  url: http://www.meetup.com/uncoded/
+  logo: /img/logo-hacknights-wh.png
+  more: <a href="http://www.meetup.com/uncoded/" target="_blank">Tuesday @RebelBite</a>
+  freq: Weekly
+  type: uncoded
+  published: true
 
- - name: FPLongBeach
-   description: FPLB is monthly get together for functional programming enthusiasts. Regardless of your choice of language or experience, if you're interested in controlling side effects and a little lambda calculus (or if have no idea what those mean), come on in!
-   url: http://www.FPLongBeach.com
-   logo: /img/logo-fplongbeach-wh.png
-   more: <a target='_blank' href='http://www.FPLongBeach.com/'>Next Event</a>
-   freq: Monthly
-   type: uncoded
-   published: false
+- name: FPLongBeach
+  description: FPLB is monthly get together for functional programming enthusiasts. Regardless of your choice of language or experience, if you're interested in controlling side effects and a little lambda calculus (or if have no idea what those mean), come on in!
+  url: http://www.FPLongBeach.com
+  logo: /img/logo-fplongbeach-wh.png
+  more: <a target='_blank' href='http://www.FPLongBeach.com/'>Next Event</a>
+  freq: Monthly
+  type: uncoded
+  published: false
 
- - name: WAPRO
-   description: WAPRO, an acronym for Web & Application Professionals, meets monthly to showcase our cool tech projects, share best practices, network with each other, help newcomers, and uphold the values of open source software (F/OSS). We strive to do this in a professional, relaxed, respectful, and open venue for all people in our community.
-   url: http://www.waprolb.org
-   logo: /img/logo-wapro.png
-   more: <a target='_blank' href='http://www.waprolb.org/meetup/'>Next Event</a>
-   freq: Monthly
-   type: uncoded
-   published: true
+- name: WAPRO
+  description: WAPRO, an acronym for Web & Application Professionals, meets monthly to showcase our cool tech projects, share best practices, network with each other, help newcomers, and uphold the values of open source software (F/OSS). We strive to do this in a professional, relaxed, respectful, and open venue for all people in our community.
+  url: http://www.waprolb.org
+  logo: /img/logo-wapro.png
+  more: <a target='_blank' href='http://www.waprolb.org/meetup/'>Next Event</a>
+  freq: Monthly
+  type: uncoded
+  published: true
 
- - name: Techworking
-   description: Join Uncoded and Long Beach's tech community for an evening of networking and conversation, focused on, well, tech. This networking is open to any and all working in, tinkering in or interested in technology in Long Beach and beyond.
-   url: /#initiatives
-   logo: /img/logo-techworking-wh.png
-   more: <a href="http://www.meetup.com/uncoded/" target="_blank">First Thursdays Every Month</a>
-   freq: Monthly
-   type: uncoded
-   published: true
+- name: Techworking
+  description: Join Uncoded and Long Beach's tech community for an evening of networking and conversation, focused on, well, tech. This networking is open to any and all working in, tinkering in or interested in technology in Long Beach and beyond.
+  url: /#initiatives
+  logo: /img/logo-techworking-wh.png
+  more: <a href="http://www.meetup.com/uncoded/" target="_blank">First Thursdays Every Month</a>
+  freq: Monthly
+  type: uncoded
+  published: true
 
- - name: Uncoded Community Barnraisings
-   description: By engaging community members, organizations and efforts in the entire process, particularly the concept and design of technology applications, Uncoded is implementing a new model of hacktivism and barnraisings focused first and foremost on expressed and identified community need.
-   url: barn-raising
-   logo: /img/logo-barnraising-wh.png
-   more: <a href="barn-raising">Organizing Now</a>
-   freq: Sporadic
-   type: uncoded
-   published: true
+- name: Uncoded Community Barnraisings
+  description: By engaging community members, organizations and efforts in the entire process, particularly the concept and design of technology applications, Uncoded is implementing a new model of hacktivism and barnraisings focused first and foremost on expressed and identified community need.
+  url: barn-raising
+  logo: /img/logo-barnraising-wh.png
+  more: <a href="barn-raising">Organizing Now</a>
+  freq: Sporadic
+  type: uncoded
+  published: true
 
- - name: NEXT Tech Pitch Events
-   description: NEXT /New, Emergent & eXpanding Technology/ —Uncoded is working with local angel investment groups to support periodic technology concept pitch events in Long Beach.
-   url: /#initiatives
-   logo: /img/logo-next-wh.png
-   more: <a href="http://www.meetup.com/uncoded/" target="_blank">Organizing Now</a>
-   freq: Sporadic
-   type: uncoded
-   published: true
+- name: NEXT Tech Pitch Events
+  description: NEXT /New, Emergent & eXpanding Technology/ —Uncoded is working with local angel investment groups to support periodic technology concept pitch events in Long Beach.
+  url: /#initiatives
+  logo: /img/logo-next-wh.png
+  more: <a href="http://www.meetup.com/uncoded/" target="_blank">Organizing Now</a>
+  freq: Sporadic
+  type: uncoded
+  published: true
 
- - name: Learning Resources
-   description: If you want to get involved in the tech community but don't know where to start, give some of the links in here a try! You'll find resources on coding, design, and business in here, with content for folks at any stage of the learning journey.
-   url: learning-resources
-   logo: /img/learning.png
-   more: <a href="learning-resources">Start Learning</a>
-   freq: Ongoing
-   type: uncoded
-   published: true
+- name: Adæpt
+  description: If you want to get involved in the tech community but don't know where to start, give some of the links in here a try! You'll find resources on coding, design, and business in here, with content for folks at any stage of the learning journey.
+  url: adaept
+  logo: /img/logo-adaept-wh.png
+  more: <a href="adaept">Start Learning</a>
+  freq: Ongoing
+  type: uncoded
+  published: true
 
- - name: Wonder Women Technology Conference
-   description: Our goal is to create a conference franchise, anchored in Long Beach, accessible to everyone, remaining non-exclusive and that will provide stellar programming, content, and speakers dedicated to highlighting, celebrating and educating women (and men) in Tech, STEAM and innovation.
-   url: http://wonderwomentech.com/
-   logo: /img/logo-wwtech.png
-   more: <a href="http://wonderwomentech.com/" target="_blank">July 15th - 17th, 2016 at the Long Beach Convention Center</a>
-   freq: Annual
-   type: partner
-   published: false
+- name: Wonder Women Technology Conference
+  description: Our goal is to create a conference franchise, anchored in Long Beach, accessible to everyone, remaining non-exclusive and that will provide stellar programming, content, and speakers dedicated to highlighting, celebrating and educating women (and men) in Tech, STEAM and innovation.
+  url: http://wonderwomentech.com/
+  logo: /img/logo-wwtech.png
+  more: <a href="http://wonderwomentech.com/" target="_blank">July 15th - 17th, 2016 at the Long Beach Convention Center</a>
+  freq: Annual
+  type: partner
+  published: false
 
- - name: DC562
-   description: >-
-     <a href="https://dc562.org" target="_blank">DC562</a> is <em>the</em> premier Westside/Southbay hacker community, supporting
-     regular meetups and events in a talented and growth-focused community.
-     Interests are diverse within the hacker spectrum with a heavy infosec
-     focus. Member participation in events is heavily encouraged and enabled!
-   url: https://dc562.org
-   logo: /img/logo-dc562.png
-   more: <a href="https://dc562.org/chat.html" target="_blank">Come join us on IRC!</a>
-   freq: Monthly
-   type: partner
-   published: true
+- name: DC562
+  description: >-
+    <a href="https://dc562.org" target="_blank">DC562</a> is <em>the</em> premier Westside/Southbay hacker community, supporting
+    regular meetups and events in a talented and growth-focused community.
+    Interests are diverse within the hacker spectrum with a heavy infosec
+    focus. Member participation in events is heavily encouraged and enabled!
+  url: https://dc562.org
+  logo: /img/logo-dc562.png
+  more: <a href="https://dc562.org/chat.html" target="_blank">Come join us on IRC!</a>
+  freq: Monthly
+  type: partner
+  published: true
