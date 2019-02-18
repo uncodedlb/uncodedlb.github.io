@@ -18,9 +18,9 @@
 
 - name: Hack Nights
   description: A weekly event, developers of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
-  url: http://www.meetup.com/uncoded/
+  url: https://hacknightlbc.org/
   logo: /img/logo-hacknights-wh.png
-  more: <a href="http://www.meetup.com/uncoded/" target="_blank">Tuesday @RebelBite</a>
+  more: <a href="https://hacknightlbc.org/" target="_blank">Tuesday @RebelBite</a>
   freq: Weekly
   type: uncoded
   published: true
